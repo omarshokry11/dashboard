@@ -1,0 +1,67 @@
+@import "../../../_variables.scss";
+
+.navbar{
+  background-color: $Color4;
+  min-height: 67px;
+  max-height: 70px;
+  display: flex;
+  position: relative;
+  input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 23px 10px;
+    box-shadow: 2px 0 20px rgba(0, 0, 0, 0.4);
+    display: none;
+  }
+  .exit{
+    position: absolute;
+    right: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: $Color6;
+    display: none;
+  }
+  .logo{
+    width: 13%;
+    margin: 0;
+    height: 100%;
+    padding-left: 15px;
+    border-right: 1px solid rgba(0,0,0,.1);
+    cursor: pointer;
+  }
+  .notify{
+    width: 67%;
+    padding-left: 20px;
+  }
+  .profile{
+    width: 20%;
+    display: flex;
+    cursor: pointer;
+    text-align: right;
+    .icon{
+      width: 50%;
+      font-size: 20px;
+      padding: 15px 0;
+      color: $Color6;
+      transition: all .4s;
+      &:hover{
+        color: silver;
+      }
+    }
+    .img{
+      text-align: center;
+      width: 50%;
+      padding-top: 5px;
+      padding-left: 25px;
+      img{
+        border-radius: 50%;
+        width: 50px;
+      }
+    }
+  }
+}
+

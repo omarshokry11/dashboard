@@ -1,0 +1,141 @@
+@import "../../../_variables.scss";
+
+.sidebar{
+  width: 18%;
+  position: fixed;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-shadow: 5px 0 20px rgba(0,0,0,.08);
+  .logo{
+    padding: 13px 25px 13px 5px;
+    border-bottom: 1px solid $Color5;
+    img{
+      padding: 0 10px;
+    }
+  }
+  .dashboard{
+    position: relative;
+    .title{
+      padding-top: 30px;
+      .title-name{
+        color: $Color1;
+      }
+      .number{
+        background-color: $Color2;
+      }
+      .icon-logo{
+        color: $Color1;
+      }
+    }
+    .list{
+      display: block;
+      .link .two{
+        color: $Color1;
+      }
+      .link .three{
+        color: #f62d51;
+      }
+      .link .four{
+        color: #ffbc34;
+      }
+      .link .five{
+        color: #7460ee;
+      }
+      li.active{
+        a{
+          color: $Color3;
+        }
+        &:hover a{
+          color: $Color3;
+        }
+        &:hover .icons{
+          color: $Color2;
+        }
+        .icons{
+          color: $Color2;
+        }
+      }
+    }
+  }
+  .apps{
+    position: relative;
+    margin-bottom: 20px;
+    .title{
+      &:hover{
+        .title-name, .icon-logo{
+          color: $Color1;
+        }
+      }
+      .title-name{
+        color: $Color3;
+      }
+      .icon-logo{
+        color: $Color6;
+      }
+    }
+  }
+  .inbox{
+    margin-bottom: 20px;
+    position: relative;
+    .title{
+      &:hover .title-name{
+        color: $Color1;
+      }
+      &:hover .icon-logo{
+        color: $Color1;
+      }
+      .title-name{
+        color: $Color3;
+      }
+      .icon-logo{
+        color: $Color3;
+      }
+    }
+  }
+  .elements{
+    position: relative;
+    margin-bottom: 20px;
+    .title{
+      &:hover .title-name{
+        color: $Color1;
+      }
+      &:hover .icon-logo{
+        color: $Color1;
+      }
+      .title-name{
+        color: $Color3;
+      }
+      .number{
+        background-color: #7460ee;
+      }
+      .icon-logo{
+        color: $Color3;
+      }
+    }
+  }
+  .logout{
+    padding-left: 20px;
+    .link{
+      position: relative;
+      a{
+        color: $Color3;
+        text-decoration: none;
+        transition: all .4s;
+      }
+      &:hover a{
+        color: $Color1;
+      }
+      i{
+        position: absolute;
+        right: 20px;
+        top: 7px;
+        color: $Color2;
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .sidebar{
+    width: 50%;
+  }
+}

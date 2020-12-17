@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6b052d5b-d293-4aef-a7b5-4da7517d9353" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/sidebar/sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/sidebar/style/sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/topnavbar/style/topnavbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/topnavbar/topnavbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imges/img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imges/img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imges/img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imges/img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imges/logo/logo-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imges/logo/logo-light-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imges/logo/logo-light-text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imges/logo/logo-text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imges/users/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imges/users/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imges/users/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imges/users/4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imges/users/5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imges/users/6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imges/users/7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/imges/users/8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/style/Main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/style/Main.scss" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1li1DOFs9SpVimRyvdwYtgtuLu7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6b052d5b-d293-4aef-a7b5-4da7517d9353" name="Default Changelist" comment="" />
+      <created>1608064978547</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1608064978547</updated>
+      <workItem from="1608064979709" duration="1109000" />
+      <workItem from="1608066401929" duration="10022000" />
+      <workItem from="1608117501085" duration="7859000" />
+      <workItem from="1608136850696" duration="7172000" />
+      <workItem from="1608161801823" duration="2056000" />
+      <workItem from="1608206216350" duration="405000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
