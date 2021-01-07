@@ -1,9 +1,5 @@
 @import "../_variables.scss";
 
-body{
-  height: 1000px;
-}
-
 *{
   padding: 0;
   margin: 0;
@@ -11,15 +7,29 @@ body{
 }
 
 .app{
-  display: flex;
-  #sidebar{
-    position: fixed;
-    width: 18%;
-  }
-  #topNavbar{
-    position: fixed;
-    right: 0;
-    width: 82%;
+  #page{
+    display: flex;
+    #sidebar{
+     width: 16%;
+      z-index: 1000;
+    }
+    @media (max-width: 768px){
+      #sidebar{
+        display: none;
+      }
+    }
+    #home{
+      background-color: $fiveColor;
+      width: 100%;
+      z-index: 1000;
+      height: 90vh;
+    }
+    @media (max-width: 768px){
+      #home{
+        height: 89vh;
+        overflow: auto;
+      }
+    }
   }
 }
 
@@ -31,20 +41,15 @@ ul{
   cursor: pointer;
 }
 
-.app{
-  display: flex;
-  width: 100%;
-}
-
 .list{
   position: relative;
   margin-top: 10px;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: $Color4;
+  background-color: $fourColor;
   display: none;
   a{
-    color: $Color3;
+    color: $thirdColor;
     display: inline-block;
     padding: 7px 15px 7px 20px;
     transition: all .4s;
@@ -53,17 +58,17 @@ ul{
     opacity: .8;
     &:hover{
       text-decoration: none;
-      color: $Color1;
+      color: $mainColor;
     }
   }
   .link{
     position: relative;
     cursor: pointer;
     &:hover a{
-      color: $Color1;
+      color: $mainColor;
     }
     &:hover .icons{
-      color: $Color1;
+      color: $mainColor;
     }
   }
 }
@@ -84,7 +89,7 @@ span.icons{
   position: absolute;
   right: 20px;
   font-size: 16px;
-  color: $Color6;
+  color: $sixColor;
 }
 
 .icon-logo{
@@ -97,16 +102,16 @@ span.icons{
   position: relative;
   cursor: pointer;
   &:hover a{
-    color: $Color1;
+    color: $mainColor;
   }
   &:hover .icon{
-    color: $Color1;
+    color: $mainColor;
   }
   .icon{
     position: absolute;
     right: 25px;
     font-size: 16px;
-    color: $Color6;
+    color: $sixColor;
   }
 }
 
@@ -128,7 +133,7 @@ span.i{
   font-size: 20px;
   i{
     cursor: pointer;
-    color: $Color6;
+    color: $sixColor;
     transition: all .4s;
     &:hover{
       color: #000;

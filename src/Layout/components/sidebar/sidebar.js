@@ -1,51 +1,93 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import { Image } from "react-bootstrap";
 
 import "./style/sidebar.scss";
 
 export default function Sidebar() {
+    const [app, setApp] = useState(false);
+    const [inbox, setIInbox] = useState(false);
+    const [elements, setElements] = useState(false);
+    const [dashboard, setDashboard] = useState(false);
+
+    useEffect(() => {
+        if(app || inbox || elements || dashboard) {
+            const settings = document.querySelector("#settings");
+            settings?.addEventListener("click", (e) => {
+                e.stopPropagation();
+            })
+            document.addEventListener("click", () => {
+                setApp(false);
+                setIInbox(false);
+                setElements(false);
+                setDashboard(false);
+            })
+        }
+    }, [app, inbox, elements, dashboard])
+
     return(
         <div className="sidebar">
             <div className="logo">
                 <Image src="/images/logo/logo-icon.png" />
             </div>
             <div className="dashboard">
-                <div className="title">
+                <div className="title" onClick={(e) => {
+                    console.log("123")
+                    if(elements || inbox || app) {
+                        console.log("!!!")
+                        setElements(false);
+                        setIInbox(false);
+                        setApp(false);
+                    } else {
+                        e.stopPropagation();
+                    }
+                    setDashboard(!dashboard);
+                }}>
                     <span className="title-name">Dashboard</span>
                     <span className="number">4</span>
                     <span className="icon"><i className="fas fa-angle-down"> </i></span>
                     <span className="icon-logo"><i className="fas fa-tachometer-alt"> </i></span>
                 </div>
-                <ul className="list">
+                <ul className={dashboard ? "list display-profile" : "profile"} id="settings">
                     <li className="active link">
-                        <a href="/">Minimal</a>
+                        <a href="/" className="a">Minimal</a>
                         <span className="icons"><i className="far fa-circle"> </i></span>
                     </li>
                     <li className="link">
-                        <a href="/">Analytical</a>
+                        <a href="/" className="a">Analytical</a>
                         <span className="icons two"><i className="far fa-circle"> </i></span>
                     </li>
                     <li className="link">
-                        <a href="/">Demo Graphical</a>
+                        <a href="/" className="a">Demo Graphical</a>
                         <span className="icons three"><i className="far fa-circle"> </i></span>
                     </li>
                     <li className="link">
-                        <a href="/">Modern</a>
+                        <a href="/" className="a">Modern</a>
                         <span className="icons four"><i className="far fa-circle"> </i></span>
                     </li>
                     <li className="link">
-                        <a href="/">Cryptocurrency</a>
+                        <a href="/" className="a">Cryptocurrency</a>
                         <span className="icons five"><i className="far fa-circle"> </i></span>
                     </li>
                 </ul>
             </div>
             <div className="apps">
-                <div className="title">
+                <div className="title" onClick={(e) => {
+                    console.log("123")
+                    if(elements || inbox || dashboard) {
+                        console.log("!!!")
+                        setElements(false);
+                        setIInbox(false);
+                        setDashboard(false);
+                    } else {
+                        e.stopPropagation();
+                    }
+                    setApp(!app);
+                }}>
                     <span className="title-name">Apps</span>
                     <span className="icon"><i className="fas fa-angle-right"> </i></span>
                     <span className="icon-logo"><i className="fas fa-th-large"> </i></span>
                 </div>
-                <ul className="list">
+                <ul className={app ? "list display-profile" : "profile"} id="settings">
                     <li className="link">
                         <a href="/">Calendar</a>
                         <span className="icons"><i className="far fa-calendar"> </i></span>
@@ -73,12 +115,23 @@ export default function Sidebar() {
                 </ul>
             </div>
             <div className="inbox">
-                <div className="title">
+                <div className="title" onClick={(e) => {
+                    console.log("123")
+                    if(elements || app || dashboard) {
+                        console.log("!!!")
+                        setElements(false);
+                        setApp(false);
+                        setDashboard(false);
+                    } else {
+                        e.stopPropagation();
+                    }
+                    setIInbox(!inbox);
+                }}>
                     <span className="title-name">Inbox</span>
                     <span className="icon"><i className="fas fa-angle-right"> </i></span>
                     <span className="icon-logo"><i className="far fa-envelope"> </i></span>
                 </div>
-                <ul className="list">
+                <ul className={inbox ? "list display-profile" : "profile"} id="settings">
                     <li className="link">
                         <a href="/">Mailbox</a>
                         <span className="icons"><i className="far fa-envelope-open"> </i></span>
@@ -94,13 +147,24 @@ export default function Sidebar() {
                 </ul>
             </div>
             <div className="elements">
-                <div className="title">
+                <div className="title" onClick={(e) => {
+                    console.log("123")
+                    if(dashboard || inbox || app) {
+                        console.log("!!!")
+                        setDashboard(false);
+                        setIInbox(false);
+                        setApp(false);
+                    } else {
+                        e.stopPropagation();
+                    }
+                    setElements(!elements);
+                }}>
                     <span className="title-name">Ui Elements</span>
                     <span className="number">25</span>
                     <span className="icon"><i className="fas fa-angle-right"> </i></span>
                     <span className="icon-logo"><i className="fas fa-palette"> </i></span>
                 </div>
-                <ul className="list">
+                <ul className={elements ? "list display-profile" : "profile"} id="settings">
                     <li className="link">
                         <a href="/">Cards</a>
                         <span className="icons"><i className="fas fa-layer-group"> </i></span>

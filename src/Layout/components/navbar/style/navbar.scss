@@ -1,0 +1,65 @@
+@import "../../../_variables.scss";
+
+.navbar-home{
+  display: flex;
+  width: 100%;
+  color: #6c757d;
+  padding: 30px;
+  .main-navbar{
+    width: 50%;
+    padding: 15px 0;
+    .main-title{
+      font-size: 18px;
+      font-weight: 400;
+      margin-bottom: 0;
+    }
+  }
+  .inner-navbar{
+    width: 50%;
+    text-align: right;
+    .link{
+      a{
+        text-decoration: none;
+        color: #000;
+        font-size: 14px;
+      }
+    }
+    .arrow{
+      margin: 0 10px;
+      font-size: 14px;
+      opacity: .1;
+    }
+    .span-title{
+      color: #009efb;
+      font-weight: bold;
+      font-size: 12px;
+      margin-right: 15px;
+    }
+    .button{
+      background-color: #36bea6;
+      border: none;
+      outline: none;
+      color: #FFF;
+      padding: 6px 10px;
+      border-radius: 4px;
+    }
+  }
+}
+@media (max-width: 768px){
+  .navbar-home{
+    align-items: center;
+    padding-left: 10px;
+    display: block;
+    .main-navbar{
+      width: 100%;
+      padding: 0;
+    }
+    .inner-navbar{
+      text-align: left;
+      width: 100%;
+      .button{
+        display: none;
+      }
+    }
+  }
+}

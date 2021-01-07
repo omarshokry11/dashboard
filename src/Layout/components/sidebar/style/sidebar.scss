@@ -1,36 +1,36 @@
 @import "../../../_variables.scss";
 
 .sidebar{
-  width: 18%;
-  position: fixed;
-  height: 100vh;
+  height: 90vh;
+  overflow: auto;
   background-color: rgba(255, 255, 255, 0.3);
   box-shadow: 5px 0 20px rgba(0,0,0,.08);
   .logo{
     padding: 13px 25px 13px 5px;
-    border-bottom: 1px solid $Color5;
+    border-bottom: 1px solid $fourColor;
     img{
       padding: 0 10px;
     }
   }
   .dashboard{
     position: relative;
+    margin-bottom: 25px;
     .title{
       padding-top: 30px;
       .title-name{
-        color: $Color1;
+        color: $mainColor;
       }
       .number{
-        background-color: $Color2;
+        background-color: $secondColor;
       }
       .icon-logo{
-        color: $Color1;
+        color: $mainColor;
       }
     }
     .list{
       display: block;
       .link .two{
-        color: $Color1;
+        color: $mainColor;
       }
       .link .three{
         color: #f62d51;
@@ -43,16 +43,16 @@
       }
       li.active{
         a{
-          color: $Color3;
+          color: $thirdColor;
         }
         &:hover a{
-          color: $Color3;
+          color: $thirdColor;
         }
         &:hover .icons{
-          color: $Color2;
+          color: $secondColor;
         }
         .icons{
-          color: $Color2;
+          color: $secondColor;
         }
       }
     }
@@ -63,14 +63,14 @@
     .title{
       &:hover{
         .title-name, .icon-logo{
-          color: $Color1;
+          color: $mainColor;
         }
       }
       .title-name{
-        color: $Color3;
+        color: $thirdColor;
       }
       .icon-logo{
-        color: $Color6;
+        color: $sixColor;
       }
     }
   }
@@ -79,16 +79,16 @@
     position: relative;
     .title{
       &:hover .title-name{
-        color: $Color1;
+        color: $mainColor;
       }
       &:hover .icon-logo{
-        color: $Color1;
+        color: $mainColor;
       }
       .title-name{
-        color: $Color3;
+        color: $thirdColor;
       }
       .icon-logo{
-        color: $Color3;
+        color: $thirdColor;
       }
     }
   }
@@ -97,19 +97,19 @@
     margin-bottom: 20px;
     .title{
       &:hover .title-name{
-        color: $Color1;
+        color: $mainColor;
       }
       &:hover .icon-logo{
-        color: $Color1;
+        color: $mainColor;
       }
       .title-name{
-        color: $Color3;
+        color: $thirdColor;
       }
       .number{
         background-color: #7460ee;
       }
       .icon-logo{
-        color: $Color3;
+        color: $thirdColor;
       }
     }
   }
@@ -118,24 +118,26 @@
     .link{
       position: relative;
       a{
-        color: $Color3;
+        color: $thirdColor;
         text-decoration: none;
         transition: all .4s;
       }
       &:hover a{
-        color: $Color1;
+        color: $mainColor;
       }
       i{
         position: absolute;
         right: 20px;
         top: 7px;
-        color: $Color2;
+        color: $secondColor;
       }
     }
   }
 }
 @media screen and (max-width: 768px) {
   .sidebar{
-    width: 50%;
+    z-index: 1000;
+    width: 100%;
+    display: none;
   }
 }
