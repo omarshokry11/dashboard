@@ -1,7 +1,6 @@
 import React from "react";
-import Sidebar from "./Layout/components/sidebar/sidebar.js";
-import TopNavbar from "./Layout/components/topnavbar/topnavbar.js";
-import Navbar from "./Layout/components/navbar/navbar.js";
+import SideBar from "./Layout/components/sidebar.js";
+import Navbar from "./Layout/components/navbar.js";
 
 import "./Layout/style/Main.scss";
 
@@ -9,17 +8,15 @@ export default function App() {
 
   return (
       <div className="app">
-          <div id="topNavbar">
-            <TopNavbar />
+          <div className="sidebar">
+              <SideBar />
           </div>
-          <div id="page">
-              <div id="sidebar">
-                  <Sidebar />
+          <div className="page">
+              <div className="page-navbar">
+                  <Navbar />
               </div>
-              <div id="home">
-                  <div id="navbar">
-                      <Navbar />
-                  </div>
+              <div className="home">
+                  Home
               </div>
           </div>
       </div>

@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b052d5b-d293-4aef-a7b5-4da7517d9353" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/message.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/notifi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/layout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/message.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/notifi.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/profile.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/navbar/navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/navbar/style/navbar.scss" afterDir="false" />
+    <list default="true" id="9465b42f-0378-4c7c-844f-5aa43c4207bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/carousel-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/appBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/carouselBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/dashboardBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/elementBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/inboxBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/messageBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/notificationBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/profileBlock.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/carouselBlock.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/messageBlock.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/notificationBlock.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/profileBlock.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/navbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/sidebar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/style/navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/style/sidebar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/img1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/img2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/img3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/img5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo/layout-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo/logo-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo/logo-light-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo/logo-light-text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo/logo-text.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/logo/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/users/8.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/8.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/_variables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/components/sidebar/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/sidebar/sidebar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/components/sidebar/style/sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/sidebar/style/sidebar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/components/topnavbar/style/topnavbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/topnavbar/style/topnavbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/components/topnavbar/topnavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/topnavbar/topnavbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/layout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/message.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/notifi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/profile.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/layout.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/message.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/notifi.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/profile.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/navbar/navbar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/navbar/style/navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/sidebar/sidebar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/sidebar/style/sidebar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/topnavbar/style/topnavbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/topnavbar/topnavbar.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Layout/style/Main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/style/Main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,8 +66,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1li1DOFs9SpVimRyvdwYtgtuLu7" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectId" id="1mrqnEcgSacjwdqOOoDnFvqbxyD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -39,17 +75,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -58,44 +91,21 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6b052d5b-d293-4aef-a7b5-4da7517d9353" name="Default Changelist" comment="" />
-      <created>1608064978547</created>
+      <changelist id="9465b42f-0378-4c7c-844f-5aa43c4207bd" name="Default Changelist" comment="" />
+      <created>1610262227558</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1608064978547</updated>
-      <workItem from="1608064979709" duration="1109000" />
-      <workItem from="1608066401929" duration="10022000" />
-      <workItem from="1608117501085" duration="7859000" />
-      <workItem from="1608136850696" duration="7172000" />
-      <workItem from="1608161801823" duration="2056000" />
-      <workItem from="1608206216350" duration="405000" />
-      <workItem from="1608224432374" duration="1781000" />
-      <workItem from="1608236995061" duration="1619000" />
-      <workItem from="1608247161935" duration="779000" />
-      <workItem from="1608312197818" duration="20000" />
-      <workItem from="1608500996077" duration="9358000" />
-      <workItem from="1608574815673" duration="3132000" />
-      <workItem from="1608582707861" duration="638000" />
-      <workItem from="1608583388668" duration="10000" />
-      <workItem from="1608650732851" duration="4422000" />
-      <workItem from="1608674241448" duration="3659000" />
-      <workItem from="1608678076715" duration="820000" />
-      <workItem from="1608970599337" duration="987000" />
-      <workItem from="1608971965729" duration="44000" />
-      <workItem from="1608972141593" duration="4000" />
-      <workItem from="1608977478211" duration="345000" />
-      <workItem from="1609075009765" duration="1446000" />
-      <workItem from="1609435594139" duration="247000" />
-      <workItem from="1609458719521" duration="2961000" />
-      <workItem from="1609635421272" duration="3650000" />
-      <workItem from="1609654127054" duration="40000" />
-      <workItem from="1609723361283" duration="3284000" />
-      <workItem from="1609781700562" duration="757000" />
-      <workItem from="1609797687924" duration="1560000" />
-      <workItem from="1610007598957" duration="5864000" />
-      <workItem from="1610017416773" duration="1726000" />
-      <workItem from="1610019194198" duration="459000" />
-      <workItem from="1610019704623" duration="34000" />
+      <updated>1610262227558</updated>
+      <workItem from="1610262232100" duration="5280000" />
+      <workItem from="1610278043832" duration="4078000" />
+      <workItem from="1610351501378" duration="8800000" />
+      <workItem from="1610374206325" duration="5202000" />
+      <workItem from="1610389525757" duration="3582000" />
+      <workItem from="1610459300527" duration="6021000" />
+      <workItem from="1610474423582" duration="2657000" />
+      <workItem from="1610480665089" duration="4843000" />
+      <workItem from="1610527779350" duration="4201000" />
+      <workItem from="1610532094618" duration="64000" />
     </task>
     <servers />
   </component>
@@ -103,29 +113,25 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="638" y="305" key="#ESLint" timestamp="1609724250499">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="718" y="216" key="#SCSS" timestamp="1610460334173">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="638" y="305" key="#ESLint/0.0.1536.824@0.0.1536.824" timestamp="1609724250499" />
-    <state x="529" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1608674268122">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="718" y="216" key="#SCSS/0.0.1920.1040@0.0.1920.1040" timestamp="1610460334173" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610374722664">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="529" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1608674268122" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1608678439306">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610374722664" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1610354224156">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1608678439306" />
-    <state x="0" y="0" width="1109" height="810" key="dock-window-1" timestamp="1608237066414">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610354224156" />
+    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1610460689332">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="1109" height="810" key="dock-window-1/0.0.1536.824@0.0.1536.824" timestamp="1608237066414" />
-    <state x="478" y="145" width="579" height="534" key="find.popup" timestamp="1608977622159">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610460689332" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1610529322184">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="478" y="145" width="579" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1608977622158" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1610008163484">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1610008163484" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610529322184" />
   </component>
 </project>

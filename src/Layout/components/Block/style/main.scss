@@ -1,0 +1,61 @@
+@import "../../../_variables.scss";
+
+.dropdown-list
+{
+    display: none;
+    background-color: #F6F6F6;
+    color: #000;
+    padding: 15px 0 5px 10px;
+
+    .list-dropdown
+    {
+        padding-left: 10px;
+        list-style: none;
+
+        li {
+            cursor: pointer;
+            transition: all .3s;
+            color: #777777;
+            font-size: 15px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .title{
+                @media (max-width: 768px) {
+                    display: none;
+                }
+            }
+
+            &:hover {
+                color: $mainColor;
+            }
+
+            i {
+                font-size: 15px;
+                margin-right: 20px;
+                @media (max-width: 768px) {
+                    margin: 5px 0 5px 7px;
+                }
+                @media (max-width: 500px) {
+                    margin: 10px 0;
+                }
+            }
+        }
+        @media (max-width: 500px) {
+            padding: 0;
+        }
+    }
+}
+
+@keyframes animation {
+    0% {top: -70px}
+    25% {top: 90px}
+    50% {top: 70px}
+    75% {top: 80px}
+    100%{top: 70px}
+}
+
+
+

@@ -1,0 +1,136 @@
+@import "../../../_variables.scss";
+
+.message{
+  display: none;
+  position: absolute;
+  left: 22%;
+  top: 70px;
+  background-color: #FFF;
+  width: 300px;
+  box-shadow: 1px 0 2px rgba(0,0,0,.2);
+  z-index: 10000;
+  animation: animation .4s;
+  .arrow{
+    position: absolute;
+    bottom: 98%;
+    left: 13px;
+    background-color: #f62d51;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    z-index: 10000;
+    border-radius: 6px 25px 50px 25px;
+    @media (max-width: 768px) {
+      left: 30%;
+    }
+    @media (max-width: 415px) {
+      left: 46%;
+    }
+    @media (max-width: 376px) {
+      left: 50%;
+    }
+    @media (max-width: 321px) {
+      left: 57%;
+    }
+  }
+  .message-title{
+    height: 70px;
+    background-color: #f62d51!important;
+    color: #F7F7F7;
+    h5{
+      padding-left: 25px;
+      padding-top: 10px;
+      margin: 0;
+      font-size: 18px;
+    }
+    p{
+      padding-left: 25px;
+      margin: 0;
+      font-size: 15px;
+    }
+  }
+  .message-item{
+    .item{
+      cursor: pointer;
+      height: 90px;
+      border-bottom: 1px solid #F2F2F2;
+      display: flex;
+      .img-item{
+        position: relative;
+        flex: .3;
+        align-items: center;
+        img{
+          margin-top: 25px;
+          margin-left: 20px;
+          width: 50%;
+          border-radius: 50%;
+          @media (max-width: 768px){
+            width: 20%;
+          }
+          @media (max-width: 500px){
+            width: 50%;
+          }
+        }
+        span{
+          position: absolute;
+          display: inline-block;
+          width: 12px;
+          height: 12px;
+          border-radius: 50%;
+          left: 55%;
+          top: 25%;
+          border: 2px solid #FFF;
+          @media (max-width: 768px){
+            left: 23%;
+            top: 26%;
+          }
+          @media (max-width: 500px){
+            left: 53%;
+            top: 26%;
+          }
+        }
+      }
+      .item-details{
+        flex: .7;
+        padding-top: 15px;
+        h6{
+          margin: 0;
+        }
+        p{
+          margin: 0;
+          color: #C0C0C0;
+          font-size: 13px;
+          font-weight: 500;
+        }
+        span{
+          color: #C0C0C0;
+          font-size: 12px;
+        }
+      }
+      &:hover{
+        background-color: #F2F2F2;
+      }
+    }
+  }
+  .message-footer{
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+    p{
+      margin: 0;
+      color: #ccc;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+  @media (max-width: 1440px) {
+    left: 31%;
+  }
+  @media (max-width: 1024px) {
+    left: 35%;
+  }
+  @media (max-width: 768px) {
+    left: 0;
+    width: 96%;
+  }
+}

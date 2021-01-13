@@ -1,0 +1,124 @@
+@import "../../../_variables.scss";
+
+.notification
+{
+  display: none;
+  position: absolute;
+  left: 20%;
+  top: 70px;
+  background-color: #FFF;
+  width: 300px;
+  box-shadow: 1px 0 2px rgba(0,0,0,.2);
+  z-index: 10000;
+  animation: animation .4s;
+  .arrow{
+    position: absolute;
+    bottom: 98%;
+    left: 10px;
+    background-color: #7460ee;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    z-index: 10000;
+    border-radius: 6px 25px 50px 25px;
+    @media (max-width: 1440px) {
+      left: 18%;
+    }
+    @media (max-width: 1024px) {
+      left: 22%;
+    }
+    @media (max-width: 768px) {
+      left: 19%;
+    }
+    @media (max-width: 415px) {
+      left: 36%;
+    }
+    @media (max-width: 376px) {
+      left: 43%;
+    }
+    @media (max-width: 321px) {
+      left: 47%;
+    }
+  }
+  .notification-title{
+    height: 70px;
+    background-color: #7460ee!important;
+    color: #F7F7F7;
+    h5{
+      padding-left: 25px;
+      padding-top: 10px;
+      margin: 0;
+      font-size: 18px;
+    }
+    p{
+      padding-left: 25px;
+      margin: 0;
+      font-size: 15px;
+    }
+  }
+  .notification-item{
+    .item{
+      cursor: pointer;
+      height: 90px;
+      border-bottom: 1px solid #F2F2F2;
+      display: flex;
+      .icon-item{
+        flex: .2;
+        .icon{
+          position: relative;
+          top: 30%;
+          left: 15%;
+          color: #FFF;
+          padding: 20px;
+          height: 20px;
+          width: 20px;
+          border-radius: 50%;
+          i{
+            position: absolute;
+            left: 12px;
+            top: 13px;
+          }
+        }
+      }
+      .item-details{
+        flex: .8;
+        padding-top: 15px;
+        padding-right: 10px;
+        h6{
+          margin: 0;
+        }
+        p{
+          margin: 0;
+          color: #C0C0C0;
+          font-size: 13px;
+          font-weight: 500;
+        }
+        span{
+          color: #C0C0C0;
+          font-size: 12px;
+        }
+      }
+      &:hover{
+        background-color: #F2F2F2;
+      }
+    }
+  }
+  .notification-footer{
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+    p{
+      margin: 0;
+      color: #ccc;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  }
+  @media (max-width: 1440px) {
+    left: 25%;
+  }
+  @media (max-width: 768px) {
+    left: 0;
+    width: 96%;
+  }
+}
