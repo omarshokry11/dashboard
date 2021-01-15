@@ -12,14 +12,13 @@
   animation: animation .4s;
   .arrow{
     position: absolute;
-    bottom: 98%;
+    bottom: 100%;
     left: 13px;
-    background-color: #f62d51;
     display: inline-block;
-    width: 15px;
-    height: 15px;
+    width: 0;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #f62d51;
     z-index: 10000;
-    border-radius: 6px 25px 50px 25px;
     @media (max-width: 768px) {
       left: 30%;
     }

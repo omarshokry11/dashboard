@@ -13,7 +13,7 @@ export default function ProfileBlock({profile}){
 
     return(
         <div className={profile ? "profile-block dropdown-show" : "dropdown-hide"} id="profile">
-            <span className="arrow"> </span>
+            <div className="arrow"> </div>
             <div className="profile-title">
                <div className="img">
                    <Image src="/1.jpg" />

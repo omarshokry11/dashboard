@@ -12,14 +12,13 @@
   animation: animation .4s;
   .arrow{
     position: absolute;
-    bottom: 98%;
-    right: 40px;
-    background-color: #7460ee;
+    bottom: 100%;
+    right: 50px;
     display: inline-block;
-    width: 15px;
-    height: 15px;
+    width: 0;
+    border: 10px solid transparent;
+    border-bottom: 10px solid #7460ee;
     z-index: 10000;
-    border-radius: 6px 25px 50px 25px;
     @media (max-width: 1440px) {
       right: 10px;
     }
@@ -61,6 +60,9 @@
       font-size: 14px;
       margin: 5px 0 0;
       cursor: pointer;
+      @media (max-width: 768px) {
+        font-size: 16px;
+      }
       &:hover{
         background-color: #F7F7F7;
       }
@@ -93,7 +95,7 @@
     right: 20px;
   }
   @media (max-width: 768px) {
-    left: 0;
-    width: 98%;
+    right: 5px;
+    width: 330px;
   }
 }

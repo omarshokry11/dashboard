@@ -73,11 +73,18 @@
   }
 
   .list-style{
+    list-style: none;
     li{
+      i{
+        color: #36bea6;
+        font-size: 15px;
+      }
       margin: 10px 0;
       cursor: pointer;
       a{
         color: #343a40;
+        font-size: 14px;
+        font-weight: 500;
         transition: all .3s;
         &:hover{
           color: #009efb;
@@ -93,7 +100,6 @@
     width: 90%;
   }
   @media (max-width: 700px) {
-    width: 96%;
-    left: 0;
+    width: 100%;
   }
 }

@@ -12,7 +12,7 @@ export default function NotificationBlock({notification}){
 
     return(
         <div className={notification ? "notification dropdown-show" : "dropdown-hide"} id="notification">
-            <span className="arrow"> </span>
+            <div className="arrow"> </div>
             <div className="notification-title">
                 <h5>4 New</h5>
                 <p>notifications</p>

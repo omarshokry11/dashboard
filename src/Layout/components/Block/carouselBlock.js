@@ -68,11 +68,11 @@ export default function CarouselBlock({carousel}){
                             <h4>List style</h4>
                         </div>
                         <ul className="list-style">
-                            <li><a href="/">You can give link</a></li>
-                            <li><a href="/">Give link</a></li>
-                            <li><a href="/">Another Give link</a></li>
-                            <li><a href="/">Forth link</a></li>
-                            <li><a href="/">Another fifth link</a></li>
+                            <li><i className="fas fa-check"> </i> <a href="/">You can give link</a></li>
+                            <li><i className="fas fa-check"> </i> <a href="/">Give link</a></li>
+                            <li><i className="fas fa-check"> </i> <a href="/">Another Give link</a></li>
+                            <li><i className="fas fa-check"> </i> <a href="/">Forth link</a></li>
+                            <li><i className="fas fa-check"> </i> <a href="/">Another fifth link</a></li>
                         </ul>
                     </div>
                 </div>

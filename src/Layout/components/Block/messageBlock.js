@@ -13,7 +13,7 @@ export default function MessageBlock({message}){
 
     return(
         <div className={message ? "message dropdown-show" : "dropdown-hide"} id="message">
-            <span className="arrow"> </span>
+            <div className="arrow"> </div>
             <div className="message-title">
                 <h5>5 New</h5>
                 <p>Message</p>
