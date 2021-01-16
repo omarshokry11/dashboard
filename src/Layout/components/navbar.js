@@ -30,7 +30,7 @@ export default function Navbar(){
                     <Image src="/logo.png" />
                 </div>
                 <div className="item-notification">
-                    <span className="icon" onClick={(e) => {
+                    <div className="icon" onClick={(e) => {
                         if (message || carousel || profile) {
                             setNotification(true);
                             setMessage(false);
@@ -40,8 +40,11 @@ export default function Navbar(){
                             e.stopPropagation();
                         }
                         setNotification(!notification);
-                    }}><i className="far fa-envelope"> </i></span>
-                    <span className="icon" onClick={(e) => {
+                    }}>
+                        <i className="far fa-envelope"> </i>
+                        <span className="pulse"> </span>
+                    </div>
+                    <div className="icon" onClick={(e) => {
                         if (notification || carousel || profile) {
                             setMessage(true);
                             setNotification(false);
@@ -51,8 +54,11 @@ export default function Navbar(){
                             e.stopPropagation();
                         }
                         setMessage(!message);
-                    }}><i className="far fa-edit"> </i></span>
-                    <span className="icon"><i className="fas fa-search"> </i></span>
+                    }}>
+                        <i className="far fa-edit"> </i>
+                        <span className="pulse"> </span>
+                    </div>
+                    <div className="icon"><i className="fas fa-search"> </i></div>
                 </div>
                 <div className="item">
                     <div className="layout">

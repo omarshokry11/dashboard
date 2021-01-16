@@ -4,14 +4,8 @@
     <list default="true" id="9465b42f-0378-4c7c-844f-5aa43c4207bd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/carouselBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/carouselBlock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/messageBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/messageBlock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/notificationBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/notificationBlock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/profileBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/profileBlock.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/carouselBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/carouselBlock.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/messageBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/messageBlock.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/notificationBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/notificationBlock.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/profileBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/profileBlock.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/style/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/style/navbar.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +59,8 @@
       <workItem from="1610699112167" duration="703000" />
       <workItem from="1610708007532" duration="239000" />
       <workItem from="1610727336815" duration="2144000" />
+      <workItem from="1610729993007" duration="634000" />
+      <workItem from="1610823701271" duration="1523000" />
     </task>
     <servers />
   </component>
