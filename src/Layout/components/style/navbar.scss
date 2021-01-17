@@ -1,0 +1,115 @@
+@import "../../_variables.scss";
+
+.navbar{
+  display: flex;
+  height: 100%;
+  color: #000;
+  .logo-navbar{
+    flex: .1;
+    text-align: center;
+    border-right: 1px solid rgba(0, 0, 0, .1);
+    img{
+      display: inline-block;
+      margin: 10px 0;
+      padding-right: 10px;
+      width: 100px;
+      @media (max-width: 768px) {
+        width: 80px;
+      }
+    }
+  }
+  .item-notification{
+    flex: .8;
+    padding-left: 15px;
+    .icon
+    {
+      position: relative;
+      display: inline-block;
+      cursor: pointer;
+      color: #C0C0C0;
+      font-size: 20px;
+      margin-right: 25px;
+      transition: all .4s;
+      @media (max-width: 768px) {
+       margin-right: 10px;
+      }
+      &:hover{
+        color: #4B4B4B;
+      }
+      .pulse{
+        position: absolute;
+        top: 5px;
+        right: 0;
+        display: inline-block;
+        width: 6px;
+        height: 6px;
+        background-color: red;
+        border-radius: 50%;
+      }
+      .pulse::before,
+      .pulse::after{
+        content: '';
+        display: block;
+        position: absolute;
+        border: 5px solid red;
+        right: -10px;
+        left: -10px;
+        top: -10px;
+        bottom: -10px;
+        border-radius: 50%;
+        animation: animate 1s linear infinite;
+        opacity: 0;
+      }
+    }
+  }
+  .item{
+    flex: .1;
+    display: flex;
+    .layout{
+      flex: .5;
+      text-align: center;
+      padding: 15px 0;
+      img{
+        cursor: pointer;
+        width: 25px;
+        @media (max-width: 768px) {
+          width: 20px;
+        }
+      }
+    }
+    .profile{
+      flex: .5;
+      align-items: center;
+      padding: 8px 0;
+      img{
+        cursor: pointer;
+        width: 40px;
+        border-radius: 50%;
+        @media (max-width: 1440px) {
+          width: 28px;
+          margin-left: 15px;
+          margin-top: 8px;
+        }
+        @media (max-width: 768px) {
+          width: 28px;
+          margin-left: 15px;
+          margin-top: 8px;
+        }
+      }
+    }
+  }
+}
+
+@keyframes animate{
+  0% {
+    transform: scale(0.5);
+    opacity: 0;
+  }
+  50%{
+    opacity: .1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: .2;
+  }
+}
