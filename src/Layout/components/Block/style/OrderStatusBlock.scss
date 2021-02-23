@@ -1,0 +1,68 @@
+@import "../../../_variables.scss";
+
+.order-status-box
+{
+    padding: 20px 0;
+    .order-card-title
+    {
+        width: 100%;
+        h5{
+            border-bottom: 1px solid #e9ecef;
+            padding: 15px 15px 30px;
+            background-color: #FFF;
+            font-size: 1.025rem;
+            font-weight: 500;
+            color: #6c757D;
+            margin: 0;
+        }
+    }
+    .table-box
+    {
+        background-color: #FFF;
+        padding: 10px 0;
+
+        @media (max-width: 768px) {
+            width: 1400px;
+        }
+
+       .table-head
+       {
+           display: flex;
+           justify-content: space-between;
+           border-bottom: 2px solid #e9ecef;
+           background-color: #FFF;
+           padding: 15px;
+
+           .title-head{
+               font-weight: bold;
+               font-size: 14px;
+               color: #212530;
+               flex: .6;
+           }
+       }
+        .table-body
+        {
+            .table-body-item
+            {
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 2px solid #e9ecef;
+                background-color: #FFF;
+                padding: 15px;
+                .title-body{
+                    flex: .6;
+                    font-size: 15px;
+                    color: #212530;
+                    a{
+                        color: #212529;
+                        text-decoration: none;
+                        transition: all .4s;
+                        &:hover{
+                            color: $mainColor;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

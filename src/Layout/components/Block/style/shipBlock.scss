@@ -1,0 +1,41 @@
+@import "../../../_variables.scss";
+
+.ship-box
+{
+    padding: 15px;
+    .ship-title
+    {
+        margin-bottom: 20px;
+        h5{
+            color: #7A8081;
+            font-size: 17px;
+            font-weight: 500;
+        }
+    }
+    .main-ship
+    {
+        display: flex;
+        justify-content: space-between;
+        div{
+            flex: .5;
+        }
+        .ship-salary{
+            h1{
+                color: #36bea6;
+                font-size: 2rem;
+            }
+            p{
+                font-size: 15px;
+                color: #adb5bd;
+                margin: 10px 0;
+            }
+            b{
+                color: #7A8081;
+                font-size: 15px;
+            }
+        }
+        #pieChart{
+            width: 200px;
+        }
+    }
+}

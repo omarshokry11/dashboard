@@ -9,7 +9,8 @@
   box-shadow: 1px 0 2px rgba(0,0,0,.2);
   background-color: #FFF;
   display: none;
-  animation: animation .4s;
+  animation: animation 2s;
+  z-index: 10;
   .carousel-title{
     margin-bottom: 20px;
     h4{

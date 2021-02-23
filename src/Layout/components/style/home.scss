@@ -1,0 +1,99 @@
+@import "../../_variables.scss";
+
+.home-box
+{
+    padding: 0 20px 100px;
+    @media screen and (max-width: 1440px) {
+        padding: 0 10px 200px;
+    }
+    @media screen and (max-width: 1024px) {
+        padding: 0 10px 680px;
+    }
+    @media screen and (max-width: 768px) {
+        padding: 0 10px 340px;
+    }
+    @media screen and (max-width: 500px) {
+        padding: 0 10px 85px;
+    }
+    @media screen and (max-width: 400px) {
+        padding: 0 10px 120px;
+    }
+    @media screen and (max-width: 370px) {
+        padding: 0 10px 95px;
+    }
+    .home-navbar{
+        width: 100%;
+    }
+    .main-home
+    {
+        display: flex;
+        justify-content: space-between;
+        .tap-chart
+        {
+            background-color: #FFF;
+            flex: .69;
+            @media (max-width: 1900px){
+                flex: 1;
+                margin-bottom: 15px;
+            }
+        }
+        .line-chart
+        {
+            flex: .3;
+            @media (max-width: 1900px){
+                flex: 1;
+            }
+        }
+        @media (max-width: 1900px){
+           display: block;
+        }
+    }
+    .item-box
+    {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+        div
+        {
+            flex: .325;
+             background-color: #FFF;
+            @media (max-width: 768px){
+                flex: 1;
+            }
+        }
+        .margin
+        {
+            @media (max-width: 768px){
+                margin: 20px 0;
+            }
+        }
+        @media (max-width: 768px){
+           display: block;
+        }
+    }
+    .tax-order-box
+    {
+        padding: 20px 0;
+        display: flex;
+        justify-content: space-between;
+        div{
+            flex: .24;
+            background-color: #FFF;
+            @media (max-width: 768px) {
+               flex: 1;
+                margin-bottom: 20px;
+            }
+        }
+        @media (max-width: 768px) {
+            display: block;
+        }
+    }
+
+    .home-footer {
+        margin: 0 -20px -27px;
+        @media (max-width: 1900px){
+            margin: 0 -10px -27px;
+        }
+    }
+}
+

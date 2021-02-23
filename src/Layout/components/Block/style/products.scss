@@ -1,0 +1,193 @@
+@import "../../../_variables.scss";
+
+.product-box
+{
+    padding: 15px 15px 200px;
+    margin: 15px;
+    @media screen and (max-width: 1440px) {
+        padding: 0 10px 320px;
+    }
+    @media screen and (max-width: 1024px) {
+        padding: 0 10px 780px;
+    }
+    @media screen and (max-width: 768px) {
+        padding: 0 10px 440px;
+    }
+    @media screen and (max-width: 500px) {
+        padding: 0 10px 185px;
+    }
+    @media screen and (max-width: 400px) {
+        padding: 0 10px 230px;
+    }
+    @media screen and (max-width: 370px) {
+        padding: 0 10px 195px;
+    }
+    label{
+        display: block;
+        margin-left: 60px;
+        color: #c1c1c1;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    img{
+        display: inline-block;
+        padding: 5px;
+        background-color: #e9e9e9;
+        border-radius: 10px;
+        width: 50px;
+    }
+    input{
+        background-color: #eeeeee;
+        margin-left: 10px;
+        border: 1px solid #cdcdcd;
+        border-radius: 5px;
+        outline: none;
+        width: 92%;
+        padding: 10px;
+        font-size: 15px;
+        color: #6C757D;
+        @media (max-width: 768px) {
+            width: 70%;
+        }
+    }
+    select{
+        cursor: pointer;
+        background-color: #eeeeee;
+        margin-left: 10px;
+        border: 1px solid #cdcdcd;
+        border-radius: 5px;
+        outline: none;
+        width: 92%;
+        padding: 10px;
+        font-size: 18px;
+        color: #6C757D;
+        @media (max-width: 768px) {
+            width: 70%;
+        }
+    }
+    #upload-photo{
+        display: none;
+    }
+    .upload{
+        background-color: #eeeeee;
+        cursor: pointer;
+        font-size: 18px;
+        display: inline-block;
+        border: 1px solid #cdcdcd;
+        width: 92%;
+        padding: 10px;
+        margin: 0 0 0 10px;
+        border-radius: 5px;
+        @media (max-width: 768px){
+            width: 75%;
+        }
+    }
+    .product-name
+    {
+        padding: 10px 0;
+    }
+    .product-quantity{
+        padding: 10px 0;
+    }
+    .product-category{
+        padding: 10px 0;
+    }
+    .product-thumbnail
+    {
+         padding: 10px 0;
+        .product
+        {
+            width: 92%;
+            margin: 0 auto;
+            border: 1px solid #cdcdcd;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            @media (max-width: 768px){
+                display: block;
+            }
+            .product-photo
+            {
+                flex: .2;
+                @media (max-width: 768px){
+                    flex: 1;
+                }
+                img{
+                    width: 100%;
+                    height: 100%;
+                    overflow: hidden;
+                }
+            }
+            .product-price
+            {
+                flex: .8;
+                line-height: 200px;
+                @media (max-width: 768px){
+                    flex: 1;
+                }
+                div
+                {
+                    display: inline-block;
+                    width: 25%;
+                    text-align: center;
+                    p
+                    {
+                        margin: 0;
+                        font-size: 20px;
+                        display: inline-block;
+                        strong{
+                            color: $mainColor;
+                        }
+                        span{
+                            color: #8D8D8D;
+                        }
+                    }
+                }
+                .discount
+                {
+                    .checkbox{
+                        width: 20px;
+                        margin: 0 5px 0 0;
+                        cursor: pointer;
+                    }
+                    span{
+                        font-size: 20px;
+                        font-weight: 500;
+                        color: $mainColor;
+                    }
+                }
+                .checkbox:checked .old-price{
+                  opacity: 1;
+                    visibility: visible;
+                }
+                .old-price{
+                    opacity: 0;
+                    visibility: hidden;
+                }
+            }
+        }
+     }
+    .product-photo{
+        padding: 10px 0;
+        margin-bottom: 10px;
+    }
+    .product-description
+    {
+        margin:  10px auto;
+        width: 92%;
+        textarea{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #cdcdcd;
+            color: #8D8D8D;
+            outline: none;
+            height: 200px;
+            max-height: 210px;
+            background-color: #eeeeee;
+        }
+    }
+    .product-keywords{
+        width: 92%;
+        margin: 0 auto;
+    }
+}

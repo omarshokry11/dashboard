@@ -1,0 +1,32 @@
+@import "../../../_variables.scss";
+
+.tap-chart-box
+{
+    height: 478px;
+    padding: 20px 15px;
+    .main-tap-chart
+    {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        h5{
+            flex: .5;
+            color: #6c757D;
+            font-size: 17px;
+            font-weight: 500;
+        }
+        .select
+        {
+            flex: .5;
+            text-align: right;
+            select{
+                border: 1px solid #F7F7F7;
+                padding: 7px;
+                outline: none;
+                color: #6c757D;
+                font-weight: 500;
+                font-size: 14px;
+            }
+        }
+    }
+}

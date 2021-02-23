@@ -1,0 +1,64 @@
+@import "../../../_variables.scss";
+
+.home-navbar{
+    padding: 10px 5px;
+    display: flex;
+    .item-logo{
+        flex: .5;
+        h5{
+            margin: 0;
+            color: #6c757D;
+            font-size: 1.25rem;
+            @media (max-width: 768px) {
+               font-size: .85rem;
+            }
+        }
+    }
+    .item-navbar-box
+    {
+        flex: .5;
+        text-align: right;
+        a{
+            color: #212529;
+            font-size: 13px;
+            &:hover{
+                text-decoration: none;
+            }
+            i{
+                color: #D2DAE5;
+                margin: 0 10px;
+            }
+        }
+        span{
+            color: #009efb;
+            margin: 0 15px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .link{
+            background-color: #009efb;
+            border: 1px solid #009efb;
+            color: #FFF;
+            padding: 7px 10px;
+            transition: all .3s;
+            border-radius: 5px;
+            i{
+                color: #FFF;
+                margin-right: 5px;
+                font-size: 14px;
+            }
+            &:hover{
+                background-color: #0086D5;
+            }
+        }
+        @media (max-width: 768px) {
+            line-height: 15px;
+            a{
+               display: none;
+            }
+            span{
+                display: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,101 @@
+@import "../../../_variables.scss";
+
+.weather-box
+{
+    padding: 20px 0 0;
+    .main-weather
+    {
+        .weather-item
+        {
+            .title-weather
+            {
+                padding: 10px 15px;
+                h5{
+                    font-size: 1rem;
+                    font-weight: 500;
+                    color: #6C757D;
+                    margin-bottom: 6px;
+                }
+                h6{
+                   font-size: 14px;
+                    font-weight: normal;
+                    color: #DAD9DD;
+                }
+            }
+            .weather-day
+            {
+                display: flex;
+                .day-item
+                {
+                    flex: .5;
+                    padding: 15px;
+                     background-color: #f8f9fa!important;
+                    h2{
+                        color: #6C757D;
+                        font-size: 1.6rem;
+                    }
+                    small{
+                        color: #6C757D;
+                    }
+                }
+                .day-temp
+                {
+                    text-align: right;
+                    flex: .5;
+                    padding: 15px;
+                     background-color: #f8f9fa!important;
+                    span{
+                        color: #6C757D;
+                        font-size: 2.5rem;
+                        font-weight: 500;
+                        sup{
+                            font-weight: normal;
+                            font-size: 28px;
+                        }
+                    }
+                }
+            }
+            .inner-weather
+            {
+                text-align: center;
+                .item
+                {
+                    padding: 20px 25px;
+                    span{
+                        font-size: 14px;
+                        display: inline-block;
+                        width: 25%;
+                        color: #6c757D;
+                        @media (max-width: 500px){
+                            width: 50%;
+                        }
+                    }
+                    .display-none{
+                        @media (max-width: 500px){
+                            display: none;
+                        }
+                    }
+                }
+                .item-temp
+                {
+                    display: flex;
+                    justify-content: space-between;
+                    .inner-temp{
+                        display: flex;
+                        justify-content: space-between;
+                        flex: .5;
+                        .temp{
+                            display: inline-block;
+                            flex: .5;
+                        }
+                    }
+                    @media (max-width: 768px){
+                        display: block;
+                        text-align: center;
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+    }
+}
