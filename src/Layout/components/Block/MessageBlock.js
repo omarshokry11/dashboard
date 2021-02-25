@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import {Image} from "react-bootstrap";
 
-import "./style/messageBlock.scss";
+import "./style/MessageBlock.scss";
 
 export default function MessageBlock({message}){
     const messages = document.getElementById("message");

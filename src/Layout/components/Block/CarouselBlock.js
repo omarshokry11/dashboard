@@ -1,7 +1,7 @@
 import React, {useEffect} from "react";
 import { Image, Carousel } from "react-bootstrap";
 
-import "./style/carouselBlock.scss";
+import "./style/CarouselBlock.scss";
 
 export default function CarouselBlock({carousel}){
     const car = document.getElementById("carousel");

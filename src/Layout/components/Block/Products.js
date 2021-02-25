@@ -1,7 +1,7 @@
 import React from "react";
 import {Image} from "react-bootstrap";
 import Select from 'react-select';
-import "./style/products.scss";
+import "./style/Products.scss";
 
 export default function Products(){
     const options = [

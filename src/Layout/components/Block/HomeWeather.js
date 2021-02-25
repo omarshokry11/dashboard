@@ -1,6 +1,7 @@
 import React from "react";
 import ReactAnimatedWeather from 'react-animated-weather';
-import "./style/homeWeather.scss";
+import {Image} from "react-bootstrap";
+import "./style/HomeWeather.scss";
 
 
 
@@ -33,7 +34,9 @@ export default function HomeWeather(props){
                                     animate={defaults.animate}
                                 />
                                 32
-                                <sup>°F</sup>
+                                <sup>
+                                    <Image src="/temp.png" className="temp" />
+                                </sup>
                             </span>
                         </div>
                     </div>
@@ -66,7 +69,7 @@ export default function HomeWeather(props){
                                         size={defaults.size}
                                         animate={defaults.animate}
                                     />
-                                    <p>32°F</p>
+                                    <p>32 <Image src="/temp.png" className="temp" /> </p>
                                 </div>
                                 <div className="temp">
                                     <p>Wed</p>
@@ -76,7 +79,7 @@ export default function HomeWeather(props){
                                         size={defaults.size}
                                         animate={defaults.animate}
                                     />
-                                    <p>34°F</p>
+                                    <p>34 <Image src="/temp.png" className="temp" /> </p>
                                 </div>
                                 <div className="temp">
                                     <p>Thu</p>
@@ -86,7 +89,7 @@ export default function HomeWeather(props){
                                         size={defaults.size}
                                         animate={defaults.animate}
                                     />
-                                    <p>31°F</p>
+                                    <p>31 <Image src="/temp.png" className="temp" /> </p>
                                 </div>
                             </div>
                             <div className="inner-temp">
@@ -98,7 +101,7 @@ export default function HomeWeather(props){
                                         size={defaults.size}
                                         animate={defaults.animate}
                                     />
-                                    <p>32°F</p>
+                                    <p>32 <Image src="/temp.png" className="temp" /> </p>
                                 </div>
                                 <div className="temp">
                                     <p>Sat</p>
@@ -108,7 +111,7 @@ export default function HomeWeather(props){
                                         size={defaults.size}
                                         animate={defaults.animate}
                                     />
-                                    <p>12°F</p>
+                                    <p>12 <Image src="/temp.png" className="temp" /> </p>
                                 </div>
                                 <div className="temp">
                                     <p>Sun</p>
@@ -118,7 +121,7 @@ export default function HomeWeather(props){
                                         size={defaults.size}
                                         animate={defaults.animate}
                                     />
-                                    <p>32°F</p>
+                                    <p>32 <Image src="/temp.png" className="temp" /> </p>
                                 </div>
                             </div>
                         </div>

@@ -2,47 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9465b42f-0378-4c7c-844f-5aa43c4207bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/CustomeTooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/barChartBlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/homeFooter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/lineBlue.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/lineChartBlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/lineGreen.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/lineRed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/lineYallow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/orderBlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/orderStatus.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/products.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/revenueBlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/shipBlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/OrderStatusBlock.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/homeFooter.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/lineChartBlock.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/orderBlock.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/products.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/revenueBlock.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/shipBlock.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/tableBlock.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/tapChartBlock.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/taxBlock.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/tableBlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/tapChartBlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/taxBlock.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Layout/components/style/home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/carouselBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/carouselBlock.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/messageBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/messageBlock.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/notificationBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/notificationBlock.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/profileBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/profileBlock.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/components/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/components/style/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/style/navbar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/style/Main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/style/Main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/CustomeTooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/appBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/AppBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/barChartBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/BarChartBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/carouselBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/CarouselBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/dashboardBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/DashboardBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/elementBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/ElementBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/homeFeed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/HomeFeed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/homeFooter.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/HomeFooter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/homeNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/HomeNavbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/homeUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/HomeUser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/homeWeather.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/HomeWeather.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/inboxBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/InboxBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/lineBlue.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/LineBlue.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/lineChartBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/LineChartBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/lineGreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/LineGreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/lineRed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/LineRed.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/lineYallow.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/LineYallow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/messageBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/MessageBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/notificationBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/NotificationBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/orderBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/OrderBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/orderStatus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/Products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/profileBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/ProfileBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/revenueBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/RevenueBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/shipBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/ShipBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/OrderStatusBlock.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/carouselBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/CarouselBlock.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/homeFeed.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/HomeFeed.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/homeFooter.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/HomeFooter.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/homeNavebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/HomeNavebar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/homeUser.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/HomeUser.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/homeWeather.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/HomeWeather.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/lineChartBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/LineChartBlock.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/Main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/messageBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/MessageBlock.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/notificationBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/NotificationBlock.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/orderBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/OrderBlock.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/Products.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/profileBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/ProfileBlock.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/revenueBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/RevenueBlock.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/shipBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/ShipBlock.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/tableBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/TableBlock.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/tapChartBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/TapChartBlock.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/taxBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/TaxBlock.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/tableBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/TableBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/tapChartBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/TapChartBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/taxBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/TaxBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Navbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/sidebar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Sidebar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/style/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/style/Home.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/style/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/style/Navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/style/sidebar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/style/Sidebar.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,6 +152,13 @@
       <workItem from="1613508793581" duration="2941000" />
       <workItem from="1614032042676" duration="1805000" />
       <workItem from="1614033942435" duration="392000" />
+      <workItem from="1614201144375" duration="3013000" />
+      <workItem from="1614276174009" duration="4272000" />
+      <workItem from="1614280534052" duration="306000" />
+      <workItem from="1614282529607" duration="1950000" />
+      <workItem from="1614284579793" duration="1774000" />
+      <workItem from="1614286394227" duration="143000" />
+      <workItem from="1614290290923" duration="1969000" />
     </task>
     <servers />
   </component>
@@ -160,6 +182,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610354224156" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614276561258">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614276561258" />
     <state x="667" y="253" width="585" height="592" key="find.popup" timestamp="1612627016264">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -1,5 +1,5 @@
 import React, {useEffect} from "react";
-import "./style/shipBlock.scss";
+import "./style/ShipBlock.scss";
 import Chart from "chart.js";
 
 export default function ShipBlock(){

@@ -1,11 +1,11 @@
 import React, {useEffect, useState} from "react";
-import DashboardBlock from "./Block/dashboardBlock";
-import AppBlock from "./Block/appBlock";
-import InboxBlock from "./Block/inboxBlock";
-import ElementBlock from "./Block/elementBlock";
-import "./style/sidebar.scss";
+import DashboardBlock from "./Block/DashboardBlock.js";
+import AppBlock from "./Block/AppBlock.js";
+import InboxBlock from "./Block/InboxBlock.js";
+import ElementBlock from "./Block/ElementBlock.js";
+import "./style/Sidebar.scss";
 
-export default function SideBar() {
+export default function Sidebar() {
     const [dashboard, setDashboard] = useState(false);
     const [app, setApp] = useState(false);
     const [inbox, setInbox] = useState(false);

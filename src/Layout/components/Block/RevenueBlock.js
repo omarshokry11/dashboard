@@ -1,6 +1,6 @@
-import React  from "react";
+import React from "react";
 import {BarChart, Bar} from "recharts";
-import "./style/taxBlock.scss";
+import "./style/RevenueBlock.scss";
 
 const data = [
     {
@@ -26,24 +26,23 @@ const data = [
     },
 ];
 
-
-export default function TaxBlock(){
+export default function RevenueBlock(){
     return(
-        <div className="tax-box">
-            <div className="tax-title">
-                <h5>Tax Deduction</h5>
+        <div className="revenue-box">
+            <div className="revenue-title">
+                <h5>Revenue generate</h5>
             </div>
-            <div className="main-tax">
+            <div className="main-revenue">
                 <div className="item">
-                    <div className="tax-salary">
-                        <h1>$347</h1>
+                    <div className="revenue-salary">
+                        <h1>$647</h1>
                         <p>APRIL 2017</p>
                         <b>(150 Sales)</b>
                     </div>
                 </div>
                 <div className="item-chart">
                     <BarChart width={90} height={100} data={data} barSize={3}>
-                        <Bar dataKey="uv" fill="#009efb" />
+                        <Bar dataKey="uv" fill="#f62d51" />
                     </BarChart>
                 </div>
             </div>

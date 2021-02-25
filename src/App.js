@@ -1,8 +1,8 @@
 import React from "react";
-import SideBar from "./Layout/components/sidebar.js";
-import Navbar from "./Layout/components/navbar.js";
-import Home from "./Layout/components/home.js";
-import Products from "./Layout/components/Block/products";
+import Sidebar from "./Layout/components/Sidebar.js";
+import Navbar from "./Layout/components/Navbar.js";
+import Home from "./Layout/components/Home.js";
+import Products from "./Layout/components/Block/Products.js";
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import "./Layout/style/Main.scss";
@@ -12,7 +12,7 @@ export default function App() {
   return (
       <div className="app">
           <div className="sidebar">
-              <SideBar />
+              <Sidebar />
           </div>
           <div className="page">
               <div className="page-navbar">

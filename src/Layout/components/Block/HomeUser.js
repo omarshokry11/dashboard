@@ -1,6 +1,6 @@
 import React from "react";
 import {Image} from "react-bootstrap";
-import "./style/homeUser.scss";
+import "./style/HomeUser.scss";
 
 export default function HomeUser(){
     return(

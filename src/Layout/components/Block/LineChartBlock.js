@@ -1,10 +1,10 @@
 import React from "react";
-import "./style/lineChartBlock.scss";
+import "./style/LineChartBlock.scss";
 
-import LineRed from "./lineRed.js";
-import LineYallow from "./lineYallow.js";
-import LineGreen from "./lineGreen.js";
-import LineBlue from "./lineBlue.js";
+import LineRed from "./LineRed.js";
+import LineYallow from "./LineYallow.js";
+import LineGreen from "./LineGreen.js";
+import LineBlue from "./LineBlue.js";
 
 export default function LineChartBlock(){
     return(

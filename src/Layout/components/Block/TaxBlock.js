@@ -1,6 +1,6 @@
-import React from "react";
+import React  from "react";
 import {BarChart, Bar} from "recharts";
-import "./style/orderBlock.scss";
+import "./style/TaxBlock.scss";
 
 const data = [
     {
@@ -26,23 +26,24 @@ const data = [
     },
 ];
 
-export default function OrderBlock(){
+
+export default function TaxBlock(){
     return(
-        <div className="order-box">
-            <div className="order-title">
-                <h5>Order received</h5>
+        <div className="tax-box">
+            <div className="tax-title">
+                <h5>Tax Deduction</h5>
             </div>
-            <div className="main-order">
+            <div className="main-tax">
                 <div className="item">
-                    <div className="order-salary">
-                        <h1>$647</h1>
+                    <div className="tax-salary">
+                        <h1>$347</h1>
                         <p>APRIL 2017</p>
                         <b>(150 Sales)</b>
                     </div>
                 </div>
                 <div className="item-chart">
                     <BarChart width={90} height={100} data={data} barSize={3}>
-                        <Bar dataKey="uv" fill="#7A8081" />
+                        <Bar dataKey="uv" fill="#009efb" />
                     </BarChart>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './style/homeNavebar.scss';
+import './style/HomeNavebar.scss';
 
 
 export default function HomeNavbar(){

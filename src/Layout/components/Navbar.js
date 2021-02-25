@@ -1,10 +1,10 @@
 import React, {useEffect, useState} from "react";
 import {Image} from "react-bootstrap";
-import MessageBlock from "./Block/messageBlock";
-import NotificationBlock from "./Block/notificationBlock";
-import ProfileBlock from "./Block/profileBlock";
-import CarouselBlock from "./Block/carouselBlock";
-import "./style/navbar.scss";
+import MessageBlock from "./Block/MessageBlock.js";
+import NotificationBlock from "./Block/NotificationBlock.js";
+import ProfileBlock from "./Block/ProfileBlock.js";
+import CarouselBlock from "./Block/CarouselBlock.js";
+import "./style/Navbar.scss";
 
 export default function Navbar() {
     const [message, setMessage] = useState(false);

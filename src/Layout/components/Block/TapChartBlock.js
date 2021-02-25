@@ -1,7 +1,7 @@
 import React from "react";
-import "./style/tapChartBlock.scss";
+import "./style/TapChartBlock.scss";
 
-import BarChartBlock from "./barChartBlock";
+import BarChartBlock from "./BarChartBlock";
 
 export default function TapChartBlock(){
     return(
