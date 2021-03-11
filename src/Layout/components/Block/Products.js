@@ -1,86 +1,114 @@
 import React from "react";
-import {Image} from "react-bootstrap";
-import Select from 'react-select';
 import "./style/Products.scss";
+import Select from 'react-select';
+import { Image } from "react-bootstrap";
 
-export default function Products(){
-    const options = [
-        { value: 'Keyword 1', label: 'Keyword 1' },
-        { value: 'Keyword 2', label: 'Keyword 2' },
-        { value: 'Keyword 3', label: 'Keyword 3' }
-    ]
+class Products extends React.Component{
 
-    return(
-        <div className="product-box">
-            <div className="product-name">
-                <label>Product Name</label>
-                <Image src="/product.png" />
-                <input type="text" placeholder="ProductName" />
-            </div>
-            <div className="product-quantity">
-                <label>Quantity</label>
-                <Image src="/quantity.png" />
-                <input type="text" placeholder="Quantity" />
-            </div>
-            <div className="product-category ">
-                <label>Category</label>
-                <Image src="/category.png" />
-                <select>
-                    <option>Category 1</option>
-                    <option>Category 2</option>
-                    <option>Category 3</option>
-                </select>
-            </div>
-            <div className="product-thumbnail">
-                <label>Thumbnail</label>
-                <div className="product">
-                    <div className="product-photo">
-                        <Image src="/product.jpg" />
+    state = {
+        checked: false,
+    }
+
+    setCheckboxValue = (event) => {
+        this.setState({
+            checked: event.target.checked,
+        });
+    }
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            image: null
+        };
+
+        this.onImageChange = this.onImageChange.bind(this);
+    }
+
+    onImageChange = event => {
+        if (event.target.files && event.target.files[0]) {
+            let img = event.target.files[0];
+            this.setState({
+                image: URL.createObjectURL(img)
+            });
+        }
+    };
+
+    render() {
+        const options = [
+            { value: 'Keyword1', label: 'Keyword1' },
+            { value: 'Keyword2', label: 'Keyword2' },
+            { value: 'Keyword3', label: 'Keyword3' }
+        ]
+        return(
+            <div className="product-box">
+                <div className="product-item">
+                    <div className="product">
+                        <div className="item">
+                            <label>Product Name</label>
+                            <input type="text"/>
+                        </div>
+                        <div className="item">
+                            <label>Product Quantity</label>
+                            <input type="text"/>
+                        </div>
                     </div>
                     <div className="product-price">
-                        <div className="price">
-                            <p>
-                                <strong>Price: </strong>
-                                <span>$200</span>
-                            </p>
+                        <div className="item">
+                            <label>Product Price</label>
+                            <input type="text"/>
                         </div>
-                        <div className="discount ">
-                            <input type="checkbox" className="checkbox" />
-                            <span>Discount</span>
-                        </div>
-                        <div className="old-price">
-                            <p>
-                                <strong>Old-Price: </strong>
-                                <span>$150</span>
-                            </p>
-                        </div>
-                        <div className="currency">
+                        <div className="item">
+                            <label>Type Price</label>
                             <select>
                                 <option>EG</option>
                                 <option>USD</option>
                             </select>
                         </div>
                     </div>
+                    <div className="product-discount">
+                        <div className="item-discount">
+                            <label>Discount</label>
+                            <input type="checkbox" checked={this.state.checked} onChange={this.setCheckboxValue} className="checkbox"/>
+                        </div>
+                        <div className="item">
+                            <label>Discount Price</label>
+                            <input type="text" />
+                        </div>
+                    </div>
+                    <div className="product-category">
+                       <div className="item">
+                           <label>Category</label>
+                           <select>
+                               <option>Category1</option>
+                               <option>Category2</option>
+                               <option>Category3</option>
+                           </select>
+                       </div>
+                        <div className="item">
+                            <label>Keywords</label>
+                            <Select
+                                isMulti
+                                options={options}
+                                className="basic-multi-select"
+                                classNamePrefix="select"
+                            />
+                        </div>
+                    </div>
+                    <div className="product-photo">
+                        <div className="item">
+                            <label htmlFor="upload-photo" className="upload-photo">Upload-Photo</label>
+                            <input type="file" id="upload-photo" name="myImage" onChange={this.onImageChange} />
+                            <Image src={this.state.image} />
+                        </div>
+                        <div className="item">
+                            <label>product Details</label>
+                            <textarea />
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div className="product-photo">
-                <label>UploadPhoto</label>
-                <Image src="/upload.png" />
-                <label htmlFor="upload-photo" className="upload">UploadPhoto</label>
-                <input type="file" id="upload-photo" />
-            </div>
-            <div className="product-description">
-                <textarea />
-            </div>
-            <div className="product-keywords">
-                <Select
-                    isMulti
-                    name="colors"
-                    options={options}
-                    className="basic-multi-select"
-                    classNamePrefix="select"
-                />
-            </div>
-        </div>
-    )
+        )
+    }
 }
+
+export default Products;

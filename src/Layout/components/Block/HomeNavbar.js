@@ -12,7 +12,7 @@ export default function HomeNavbar(){
             <div className="item-navbar-box">
                 <a href="/">
                     Home
-                    <i className="fas fa-angle-right"> </i>
+                    <Link to="/" className="fas fa-angle-right"> </Link>
                 </a>
                 <span>Dashboard 4</span>
                 <Link to="/product" className="link"><i className="fas fa-plus-circle"> </i>Create New</Link>
