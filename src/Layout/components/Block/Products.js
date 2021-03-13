@@ -71,7 +71,7 @@ class Products extends React.Component{
                             <input type="checkbox" checked={this.state.checked} onChange={this.setCheckboxValue} className="checkbox"/>
                         </div>
                         {this.state.checked ? <div className="item">
-                            <label>New Price</label>
+                            <label>Discount Price</label>
                             <input type="text"/>
                         </div> : null}
                     </div>
