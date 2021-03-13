@@ -4,16 +4,6 @@
     <list default="true" id="9465b42f-0378-4c7c-844f-5aa43c4207bd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/currency.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/discount.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/icons8-decrease-decimal-24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/old-price.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/photo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/price.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/product.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/sale.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/upload.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/HomeNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/HomeNavbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/Products.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/Products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/Products.scss" afterDir="false" />
     </list>
@@ -42,6 +32,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -124,44 +115,11 @@
       <workItem from="1615458484566" duration="4485000" />
       <workItem from="1615486422642" duration="717000" />
       <workItem from="1615488378690" duration="1595000" />
+      <workItem from="1615642123721" duration="414000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="586" y="198" key="#Inspections" timestamp="1612820631297">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1612820631297" />
-    <state x="718" y="216" key="#SCSS" timestamp="1610460334173">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="718" y="216" key="#SCSS/0.0.1920.1040@0.0.1920.1040" timestamp="1610460334173" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1611183790449">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1611183790449" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1610354224156">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610354224156" />
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1614276561258">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1614276561258" />
-    <state x="667" y="253" width="585" height="592" key="find.popup" timestamp="1612627016264">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="667" y="253" width="585" height="592" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612627016264" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1613082514678">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1613082514678" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1611903833242">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611903833242" />
   </component>
 </project>

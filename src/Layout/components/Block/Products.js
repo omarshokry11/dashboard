@@ -70,10 +70,10 @@ class Products extends React.Component{
                             <label>Discount</label>
                             <input type="checkbox" checked={this.state.checked} onChange={this.setCheckboxValue} className="checkbox"/>
                         </div>
-                        <div className="item">
-                            <label>Discount Price</label>
-                            <input type="text" />
-                        </div>
+                        {this.state.checked ? <div className="item">
+                            <label>New Price</label>
+                            <input type="text"/>
+                        </div> : null}
                     </div>
                     <div className="product-category">
                        <div className="item">
@@ -96,9 +96,9 @@ class Products extends React.Component{
                     </div>
                     <div className="product-photo">
                         <div className="item">
-                            <label htmlFor="upload-photo" className="upload-photo">Upload-Photo</label>
+                            <label htmlFor="upload-photo" className="upload-photo">Product Photo <i className="fa fa-upload"> </i> </label>
                             <input type="file" id="upload-photo" name="myImage" onChange={this.onImageChange} />
-                            <Image src={this.state.image} />
+                            {this.state.image ? <Image src={this.state.image}/> : null}
                         </div>
                         <div className="item">
                             <label>product Details</label>

@@ -79,8 +79,12 @@
                 display: none;
             }
             .upload-photo{
+                margin-bottom: 1em;
+                padding: 10px;
                 cursor: pointer;
                 font-size: 15px;
+                border: 1px solid #c8c8c8;
+                border-radius: 5px;
             }
             img{
                 width: 100%;
