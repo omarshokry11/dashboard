@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 
-import "./style/profileBlock.scss";
+import "./style/ProfileBlock.scss";
 import {Image} from "react-bootstrap";
 
 export default function ProfileBlock({profile}){

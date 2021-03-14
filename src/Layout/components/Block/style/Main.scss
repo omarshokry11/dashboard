@@ -49,6 +49,22 @@
     }
 }
 
+.minimal{
+    color: $secondColor;
+}
+.Analytical{
+    color: $mainColor;
+}
+.Demographical{
+    color: #F62D51;
+}
+.Modern{
+    color: #FFBC34;
+}
+.CryPtocurrency{
+    color: #7460EE;
+}
+
 @keyframes animation {
     0% {top: -70px}
     25% {top: 90px}
@@ -56,6 +72,3 @@
     75% {top: 80px}
     100%{top: 70px}
 }
-
-
-

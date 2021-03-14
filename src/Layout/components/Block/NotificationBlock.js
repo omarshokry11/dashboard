@@ -1,6 +1,6 @@
 import React, {useEffect} from "react";
 
-import "./style/notificationBlock.scss";
+import "./style/NotificationBlock.scss";
 
 export default function NotificationBlock({notification}){
     const notifi = document.getElementById("notification");

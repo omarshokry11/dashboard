@@ -1,0 +1,37 @@
+@import "../../../_variables.scss";
+
+.margin-bottom{
+    margin-bottom: 20px;
+}
+
+.line-chart-box
+{
+    .line-box
+    {
+        display: flex;
+        justify-content: space-between;
+        div
+        {
+            background-color: #FFF;
+            flex: .49;
+            padding: 15px;
+            @media (max-width: 500px) {
+                flex: 1;
+                margin-bottom: 15px;
+            }
+            h5{
+                color: #6c757D;
+                font-weight: 700;
+                font-size: 1.5rem;
+            }
+            p{
+                font-size: 13px;
+                color: #B5B8BF;
+                margin: 0;
+            }
+        }
+        @media (max-width: 500px) {
+            display: block;
+        }
+    }
+}

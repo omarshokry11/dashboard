@@ -1,0 +1,94 @@
+@import "../../../_variables.scss";
+
+.product-box
+{
+    background-color: rgba(255, 255, 255, .6);
+    padding: 15px 0 100px;
+    @media (max-width: 1440px) {
+        padding-bottom: 170px;
+    }
+    @media (max-width: 1024px) {
+        padding-bottom: 630px;
+    }
+    @media (max-width: 768px) {
+        padding-bottom: 300px;
+    }
+    @media (max-width: 500px) {
+        padding-bottom: 80px;
+    }
+    .product-item
+    {
+        padding: 25px;
+        .item
+        {
+            margin: 10px 15px;
+            label{
+                display: block;
+                font-size: 12px;
+                font-weight: bold;
+            }
+            input
+            {
+                width: 100%;
+                font-size: 15px;
+                padding: 8px 15px;
+                color: $mainColor;
+                outline: none;
+                border: 1px solid #c8c8c8;
+                border-radius: 5px;
+                margin: 10px 0;
+            }
+            select{
+                width: 100%;
+                padding: 8px 15px;
+                border: 1px solid #c8c8c8;
+                outline: none;
+                border-radius: 5px;
+            }
+            #upload-photo{
+                display: none;
+            }
+            .upload-photo{
+                cursor: pointer;
+                font-size: 15px;
+                margin: 20px 0;
+                width: 200px;
+                padding: 5px 10px;
+                border: 1px solid #c8c8c8;
+                border-radius: 5px;
+            }
+            img{
+                width: 200px;
+                height: 200px;
+            }
+            textarea{
+                width: 100%;
+                height: 350px;
+                max-height: 350px;
+                border: 1px solid #c8c8c8;
+                border-radius: 5px;
+                outline: none;
+                padding: 10px;
+            }
+        }
+        .item-discount
+        {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            margin-left: 15px;
+            label{
+                display: block;
+                font-size: 12px;
+                font-weight: bold;
+            }
+            .checkbox{
+                margin: 10px 0;
+                outline: none;
+                width: 35px;
+                height: 35px;
+                line-height: 35px;
+                cursor: pointer;
+            }
+        }
+    }
+}

@@ -4,13 +4,20 @@
     <list default="true" id="9465b42f-0378-4c7c-844f-5aa43c4207bd" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/components/navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/components/style/navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/style/navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/Products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/Products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/Products.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,8 +32,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -35,6 +44,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -61,32 +71,56 @@
       <workItem from="1610727336815" duration="2144000" />
       <workItem from="1610729993007" duration="634000" />
       <workItem from="1610823701271" duration="1523000" />
+      <workItem from="1611018690072" duration="16000" />
+      <workItem from="1611155363982" duration="5373000" />
+      <workItem from="1611165379556" duration="238000" />
+      <workItem from="1611183620245" duration="2825000" />
+      <workItem from="1611238805391" duration="2911000" />
+      <workItem from="1611252849862" duration="2969000" />
+      <workItem from="1611257075624" duration="4410000" />
+      <workItem from="1611333237842" duration="6217000" />
+      <workItem from="1611351819410" duration="247000" />
+      <workItem from="1611352150672" duration="1721000" />
+      <workItem from="1611365562614" duration="19000" />
+      <workItem from="1611422450376" duration="1225000" />
+      <workItem from="1611434866189" duration="6893000" />
+      <workItem from="1611536169011" duration="568000" />
+      <workItem from="1611537297759" duration="165000" />
+      <workItem from="1611537501736" duration="80000" />
+      <workItem from="1611537675618" duration="1022000" />
+      <workItem from="1611901690502" duration="6832000" />
+      <workItem from="1611932401451" duration="6642000" />
+      <workItem from="1611988949888" duration="1731000" />
+      <workItem from="1612080526746" duration="2768000" />
+      <workItem from="1612159387892" duration="5338000" />
+      <workItem from="1612555466255" duration="1102000" />
+      <workItem from="1612622928377" duration="7928000" />
+      <workItem from="1612731921262" duration="3255000" />
+      <workItem from="1612737733484" duration="6012000" />
+      <workItem from="1612819816238" duration="5827000" />
+      <workItem from="1613080470650" duration="5689000" />
+      <workItem from="1613508793581" duration="2941000" />
+      <workItem from="1614032042676" duration="1805000" />
+      <workItem from="1614033942435" duration="392000" />
+      <workItem from="1614201144375" duration="3013000" />
+      <workItem from="1614276174009" duration="4272000" />
+      <workItem from="1614280534052" duration="306000" />
+      <workItem from="1614282529607" duration="1950000" />
+      <workItem from="1614284579793" duration="1774000" />
+      <workItem from="1614286394227" duration="143000" />
+      <workItem from="1614290290923" duration="1969000" />
+      <workItem from="1614500215499" duration="3377000" />
+      <workItem from="1614762395357" duration="1968000" />
+      <workItem from="1615375878239" duration="1100000" />
+      <workItem from="1615458484566" duration="4485000" />
+      <workItem from="1615486422642" duration="717000" />
+      <workItem from="1615488378690" duration="1595000" />
+      <workItem from="1615642123721" duration="414000" />
+      <workItem from="1615667186924" duration="893000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="718" y="216" key="#SCSS" timestamp="1610460334173">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="718" y="216" key="#SCSS/0.0.1920.1040@0.0.1920.1040" timestamp="1610460334173" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1610374722664">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610374722664" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1610354224156">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610354224156" />
-    <state x="667" y="253" width="585" height="534" key="find.popup" timestamp="1610460689332">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="667" y="253" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610460689332" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1610529322184">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1610529322184" />
   </component>
 </project>

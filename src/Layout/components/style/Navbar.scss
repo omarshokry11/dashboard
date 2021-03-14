@@ -1,13 +1,37 @@
 @import "../../_variables.scss";
 
-.navbar{
+.navbar-box{
   display: flex;
-  height: 100%;
   color: #000;
-  .logo-navbar{
+  .input
+  {
+    width: 100%;
+    position: relative;
+    input{
+      color: #6c757D;
+      font-size: 18px;
+      font-weight: 500;
+      outline: none;
+      width: 100%;
+      padding: 22px;
+      border: none;
+      box-shadow: 1px 0 10px rgba(0, 0, 0, .1);
+    }
+    .exit{
+      position: absolute;
+      right: 25px;
+      top: 25px;
+      font-size: 18px;
+      color: #BDBBBF;
+      cursor: pointer;
+    }
+  }
+  .logo-navbar
+  {
     flex: .1;
     text-align: center;
     border-right: 1px solid rgba(0, 0, 0, .1);
+    padding-top: 15px;
     img{
       display: inline-block;
       margin: 10px 0;
@@ -15,12 +39,14 @@
       width: 100px;
       @media (max-width: 768px) {
         width: 80px;
+        padding-left: 10px;
       }
     }
   }
   .item-notification{
     flex: .8;
     padding-left: 15px;
+    padding-top: 20px;
     .icon
     {
       position: relative;
@@ -65,6 +91,7 @@
   .item{
     flex: .1;
     display: flex;
+    padding-top: 10px;
     .layout{
       flex: .5;
       text-align: center;
@@ -93,6 +120,7 @@
         @media (max-width: 768px) {
           width: 28px;
           margin-left: 15px;
+          margin-right: 15px;
           margin-top: 8px;
         }
       }

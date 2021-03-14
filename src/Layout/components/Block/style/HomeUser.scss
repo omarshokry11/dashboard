@@ -1,0 +1,117 @@
+@import "../../../_variables.scss";
+
+.padding-top{
+    padding-top: 20px;
+}
+
+.user-box{
+    padding: 10px 15px 0;
+    @media (max-width: 768px) {
+        padding-bottom: 15px;
+    }
+    .user-title
+    {
+        padding: 20px 0;
+        h5{
+            font-size: 1rem;
+            font-weight: 500;
+            color: #6C757D;
+            margin-bottom: 6px;
+        }
+        h6{
+            font-size: 14px;
+            font-weight: normal;
+            color: #DAD9DD;
+        }
+    }
+    .item-user-box
+    {
+        border-left: 1px solid #E9ECEF;
+        border-bottom: 1px solid #E9ECEF;
+        .item
+        {
+            display: flex;
+            border-bottom: 1px solid #E9ECEF;
+            .icon
+            {
+                flex: .1;
+                i{
+                    font-size: 14px;
+                    height: 40px;
+                    width: 40px;
+                    line-height: 40px;
+                    text-align: center;
+                    border-radius: 50%;
+                    color: #FFF;
+                }
+                img{
+                    width: 40px;
+                    border-radius: 50%;
+                }
+            }
+            .item-details{
+                padding-bottom: 10px;
+                flex: .9;
+                p{
+                    margin: 0 25px;
+                    font-weight: 500;
+                    color: #6c757D;
+                    font-size: 1rem;
+                    @media (max-width: 1900px) {
+                        font-size: .75rem;
+                    }
+                    span{
+                        margin: 0;
+                        font-size: 10px;
+                        color: #adb5bd;
+                    }
+                    a{
+                        margin-right: 5px;
+                        font-size: 15px;
+                    }
+                }
+                span{
+                    margin: 0 25px;
+                    font-size: 14px;
+                    color: #757581;
+                    @media (max-width: 1900px) {
+                        font-size: 10px
+                    }
+                }
+                .button
+                {
+                    button{
+                        background: none;
+                        border: none;
+                        border-radius: 20px;
+                        margin: 10px;
+                        &:hover{
+                            color: #FFF;
+                        }
+                    }
+                    .btn-apporve{
+                        color: #36BEA6;
+                        padding: 4px 15px;
+                        border: 1px solid #36BEA6;
+                        transition: all .4s;
+                        &:hover{
+                            background-color: #36BEA6;
+                        }
+                        @media (max-width: 1900px) {
+                            margin: 10px 0;
+                        }
+                    }
+                    .btn-refuse{
+                        color: #F62D51;
+                        padding: 4px 15px;
+                        border: 1px solid #F62D51;
+                        transition: all .4s;
+                        &:hover{
+                            background-color: #F62D51;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
