@@ -10,23 +10,22 @@ export default function AppBlock({ app }){
         })
     }, [app, apps]);
 
-    let items =[
-        {id: 1, spanClass: "title", spanTitle: "Calendar", icon: "far fa-calendar"},
-        {id: 2, spanClass: "title", spanTitle: "Chat app", icon: "far fa-comment-alt"},
-        {id: 3, spanClass: "title", spanTitle: "Support Ticket", icon: "fas fa-ticket-alt"},
-        {id: 4, spanClass: "title", spanTitle: "Modern", icon: "fas fa-list-ul"},
-        {id: 5, spanClass: "title", spanTitle: "CryPtocurrency", icon: "far fa-edit"},
-    ];
 
     return(
         <div className={app ? "dropdown-show dropdown-list" : "dropdown-hide"} id="app">
             <ul className="list-dropdown">
-                {items.map(
-                    (item) => <li key={item.id}>
-                        <span className={item.spanClass}>{item.spanTitle}</span>
-                        <i className={item.icon}> </i>
-                    </li>
-                )}
+                <li>
+                    <span className="title">
+                        <a href="/product">Product</a>
+                    </span>
+                    <a href="/product"><i className="fas fa-cart-arrow-down"> </i></a>
+                </li>
+                <li>
+                    <span className="title">
+                        <a href="/tableProduct">TableProductBlock</a>
+                    </span>
+                    <a href="/tableProduct"><i className="fas fa-cart-plus"> </i></a>
+                </li>
             </ul>
         </div>
     )

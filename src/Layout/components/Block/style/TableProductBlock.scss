@@ -1,0 +1,145 @@
+@import "../../../_variables.scss";
+
+.product-item-box
+{
+    height: 100vh;
+    .table-product-box
+    {
+        height: 100%;
+        overflow: auto;
+        background-color: #FFF;
+        padding: 20px 20px 100px;
+        @media (max-width: 1440px){
+            padding-bottom: 220px;
+        }
+        @media (max-width: 1024px){
+            padding-bottom: 680px;
+        }
+        @media (max-width: 768px){
+            width: 690px;
+            overflow: auto;
+            padding-bottom: 350px;
+        }
+        @media (max-width: 700px){
+            width: 690px;
+            overflow: auto;
+            padding-bottom: 125px;
+        }
+        @media (max-width: 500px){
+            width: 352px;
+        }
+        @media (max-width: 400px){
+            width: 316px;
+        }
+        @media (max-width: 370px){
+            width: 303px;
+        }
+        .table-product-item-box
+        {
+            border: 2px solid #f1ecec;
+            border-radius: 10px;
+            @media (max-width: 760px){
+                width: 1800px;
+            }
+            .table-product-header
+            {
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 2px solid #f1ecec;
+                div
+                {
+                    flex: .15;
+                    text-align: center;
+                    padding: 20px 0;
+                    @media (max-width: 760px){
+                        flex: .5;
+                    }
+                    h5{
+                        font-size: 18px;
+                        margin: 0;
+                    }
+                }
+            }
+            .table-product-body
+            {
+                .table-product-item
+                {
+                    display: flex;
+                    justify-content: space-between;
+                    border-radius: 25px;
+                    div
+                    {
+                        flex: .15;
+                        text-align: center;
+                        padding: 10px 0;
+                        height: 120px;
+                        line-height: 80px;
+                        @media (max-width: 760px){
+                            flex: .5;
+                        }
+                        h6
+                        {
+                            height: 100%;
+                            line-height: 100px;
+                            color: #777777;
+                            font-weight: normal;
+                            margin: 0;
+                            @media (max-width: 768px){
+                                font-size: 13px;
+                            }
+                            @media (max-width: 760px){
+                                font-size: 18px;
+                            }
+                            i{
+                                font-size: 25px;
+                                height: 100px;
+                                line-height: 80px;
+                            }
+                            .sale{
+                                color: $secondColor;
+                            }
+                            .unsale{
+                                color: #F62D51;
+                            }
+                        }
+                        img{
+                            border-radius: 50%;
+                            width: 80px;
+                            height: 80px;
+                            line-height: 100px;
+                            margin-top: 10px;
+                        }
+                        button{
+                            outline: none;
+                            background: none;
+                            border: 1px solid #cdc6c6;
+                            border-radius: 5px;
+                            padding: 8px;
+                            margin: 25px 5px;
+                            height: 40px;
+                            line-height: 20px;
+                                @media (max-width: 1024px){
+                                padding: 5px;
+                                margin: 25px 2px;
+                            }
+                            @media (max-width: 1024px){
+                                padding: 2px;
+                                margin: 25px 2px;
+                            }
+                            @media (max-width: 760px){
+                                padding: 8px;
+                                margin: 25px 5px;
+                            }
+                        }
+                        .clear{
+                            color: #F62D51;
+                        }
+                    }
+                }
+            }
+            .table-product-item:nth-child(odd){
+                background-color: #F8F9FA;
+            }
+        }
+    }
+}

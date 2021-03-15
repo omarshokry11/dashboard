@@ -13,7 +13,6 @@
         list-style: none;
 
         li {
-            cursor: pointer;
             transition: all .3s;
             color: #777777;
             font-size: 15px;
@@ -26,12 +25,22 @@
                 @media (max-width: 768px) {
                     display: none;
                 }
+                a{
+                    text-decoration: none;
+                    color: #777777;
+                    cursor: pointer;
+                    &:hover {
+                        color: $mainColor;
+                    }
+                }
             }
-
-            &:hover {
-                color: $mainColor;
+            a{
+                color: #777777;
+                cursor: pointer;
+                &:hover {
+                    color: $mainColor;
+                }
             }
-
             i {
                 font-size: 15px;
                 margin-right: 20px;
@@ -51,18 +60,6 @@
 
 .minimal{
     color: $secondColor;
-}
-.Analytical{
-    color: $mainColor;
-}
-.Demographical{
-    color: #F62D51;
-}
-.Modern{
-    color: #FFBC34;
-}
-.CryPtocurrency{
-    color: #7460EE;
 }
 
 @keyframes animation {
