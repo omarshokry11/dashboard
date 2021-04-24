@@ -10,7 +10,7 @@ export default function HomeFeed(){
         {id: 4,classIcon: "icon", icon: "fas fa-user user", classMessage: "item-message", titleMessage: " New user registered.", classNotification: "time-notification", titleNotification: "30 May"},
         {id: 5,classIcon: "icon", icon: "far fa-bell bell", classMessage: "item-message", titleMessage: " New Version just arrived.", classNotification: "time-notification", titleNotification: "27 May"},
         {id: 6,classIcon: "icon", icon: "far fa-bell bell", classMessage: "item-message", titleMessage: "You have 4 pending tasks.", classNotification: "time-notification", titleNotification: "Just Now"},
-        {id: 4,classIcon: "icon", icon: "fas fa-user user", classMessage: "item-message", titleMessage: " New user registered.", classNotification: "time-notification", titleNotification: "30 May"},
+        {id: 7,classIcon: "icon", icon: "fas fa-user user", classMessage: "item-message", titleMessage: " New user registered.", classNotification: "time-notification", titleNotification: "30 May"},
     ];
     return(
         <div className="feed-box">

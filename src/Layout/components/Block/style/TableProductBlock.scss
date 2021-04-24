@@ -38,8 +38,8 @@
         {
             border: 2px solid #f1ecec;
             border-radius: 10px;
-            @media (max-width: 760px){
-                width: 1800px;
+            @media (max-width: 768px){
+                width: 1000px;
             }
             .table-product-header
             {
@@ -77,6 +77,11 @@
                         @media (max-width: 760px){
                             flex: .5;
                         }
+                        span{
+                            font-size: 15px;
+                            color: #777777;
+                            margin-left: 15px;
+                        }
                         h6
                         {
                             height: 100%;
@@ -109,30 +114,26 @@
                             line-height: 100px;
                             margin-top: 10px;
                         }
-                        button{
-                            outline: none;
-                            background: none;
-                            border: 1px solid #cdc6c6;
-                            border-radius: 5px;
-                            padding: 8px;
-                            margin: 25px 5px;
-                            height: 40px;
-                            line-height: 20px;
-                                @media (max-width: 1024px){
-                                padding: 5px;
-                                margin: 25px 2px;
-                            }
-                            @media (max-width: 1024px){
-                                padding: 2px;
-                                margin: 25px 2px;
-                            }
-                            @media (max-width: 760px){
-                                padding: 8px;
-                                margin: 25px 5px;
-                            }
-                        }
                         .clear{
                             color: #F62D51;
+                        }
+                    }
+                    .btn
+                    {
+                        a{
+                            text-decoration: none;
+                            color: #000;
+                            margin-right: 5px;
+                        }
+                        i{
+                            color: #000;
+                            border-radius: 5px;
+                            border: 1px solid #929292;
+                            padding: 8px;
+                            cursor: pointer;
+                            @media (max-width: 1900px) {
+                                padding: 5px;
+                            }
                         }
                     }
                 }

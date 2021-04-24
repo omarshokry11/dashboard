@@ -2,7 +2,7 @@
 
 .product-box
 {
-    background-color: rgba(255, 255, 255, .6);
+    background-color: rgba(255, 255, 255, 0.5);
     padding: 15px 0 100px;
     @media (max-width: 1440px) {
         padding-bottom: 170px;
@@ -27,12 +27,11 @@
                 font-size: 12px;
                 font-weight: bold;
             }
-            input
-            {
+            input{
                 width: 100%;
-                font-size: 15px;
                 padding: 8px 15px;
-                color: $mainColor;
+                color: #858585;
+                font-size: 20px;
                 outline: none;
                 border: 1px solid #c8c8c8;
                 border-radius: 5px;
@@ -40,35 +39,63 @@
             }
             select{
                 width: 100%;
-                padding: 8px 15px;
+                padding: 10px 15px;
                 border: 1px solid #c8c8c8;
                 outline: none;
                 border-radius: 5px;
+                font-size: 20px;
+                color: #858585;
             }
             #upload-photo{
                 display: none;
             }
+            #file{
+                display: none;
+            }
             .upload-photo{
                 cursor: pointer;
-                font-size: 15px;
+                font-size: 12px;
+                font-weight: 500;
                 margin: 20px 0;
-                width: 200px;
+                width: 135px;
                 padding: 5px 10px;
                 border: 1px solid #c8c8c8;
                 border-radius: 5px;
             }
-            img{
-                width: 200px;
-                height: 200px;
-            }
             textarea{
                 width: 100%;
-                height: 350px;
-                max-height: 350px;
+                min-height: 250px;
+                max-height: 250px;
+                min-width: 500px;
+                max-width: 500px;
                 border: 1px solid #c8c8c8;
                 border-radius: 5px;
                 outline: none;
                 padding: 10px;
+                color: #858585;
+            }
+        }
+        .product-photo
+        {
+            display: flex;
+            .photo-product{
+                flex: .5;
+                img{
+                    width: 120px;
+                    height: 120px;
+                    border-radius: 50%;
+                    margin-right: 10px;
+                    margin-bottom: 10px;
+                }
+            }
+            .thumbnail-photo
+            {
+                flex: .5;
+                img{
+                    width: 220px;
+                    height: 220px;
+                    border-radius: 10px;
+                }
             }
         }
         .item-discount
@@ -88,6 +115,23 @@
                 height: 35px;
                 line-height: 35px;
                 cursor: pointer;
+            }
+        }
+        .product-button
+        {
+            button
+            {
+                border-radius: 10px;
+                border: none;
+                outline: none;
+                padding: 8px 15px;
+                font-size: 18px;
+                color: #FFF;
+                background-color: #3FAF53;
+                transition: all .4s;
+                &:hover{
+                    background-color: #19882d;
+                }
             }
         }
     }
