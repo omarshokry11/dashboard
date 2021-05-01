@@ -2,10 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9465b42f-0378-4c7c-844f-5aa43c4207bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Layout/Login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/FullInformationProduct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/FullInformationProduct.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Layout/style/Login.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utilize/API.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/HomeFeed.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/HomeFeed.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/Products.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/Products.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/TableProductBlock.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/TableProductBlock.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/Main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/Main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/Products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/Products.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/components/Block/style/TableProductBlock.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/components/Block/style/TableProductBlock.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -35,12 +49,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../eCommerce/ecommerce-ui" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
@@ -117,10 +135,114 @@
       <workItem from="1615488378690" duration="1595000" />
       <workItem from="1615642123721" duration="414000" />
       <workItem from="1615667186924" duration="893000" />
+      <workItem from="1615758084778" duration="8909000" />
+      <workItem from="1615804426264" duration="236000" />
+      <workItem from="1615805155329" duration="5098000" />
+      <workItem from="1615837249040" duration="5155000" />
+      <workItem from="1615852810795" duration="7250000" />
+      <workItem from="1615922567213" duration="557000" />
+      <workItem from="1615933145412" duration="1833000" />
+      <workItem from="1615935863502" duration="1168000" />
+      <workItem from="1615937060019" duration="99000" />
+      <workItem from="1615989432343" duration="319000" />
+      <workItem from="1615999418777" duration="27000" />
+      <workItem from="1615999537243" duration="2327000" />
+      <workItem from="1616069586425" duration="3450000" />
+      <workItem from="1616218563936" duration="707000" />
+      <workItem from="1616261725701" duration="297000" />
+      <workItem from="1616324746801" duration="946000" />
+      <workItem from="1616333990268" duration="594000" />
+      <workItem from="1616344719684" duration="997000" />
+      <workItem from="1616351347503" duration="2956000" />
+      <workItem from="1616512807100" duration="1114000" />
+      <workItem from="1616681237922" duration="1064000" />
+      <workItem from="1616788555223" duration="7000" />
+      <workItem from="1616879793392" duration="579000" />
+      <workItem from="1616886294900" duration="1472000" />
+      <workItem from="1616930674357" duration="2617000" />
+      <workItem from="1616933744916" duration="708000" />
+      <workItem from="1616936048316" duration="374000" />
+      <workItem from="1616938282809" duration="40000" />
+      <workItem from="1616954379414" duration="612000" />
+      <workItem from="1616956468184" duration="34000" />
+      <workItem from="1616958437554" duration="49000" />
+      <workItem from="1616963941633" duration="51000" />
+      <workItem from="1616964139731" duration="1228000" />
+      <workItem from="1616965404129" duration="61000" />
+      <workItem from="1616967842321" duration="555000" />
+      <workItem from="1617303325715" duration="2575000" />
+      <workItem from="1617372809884" duration="6767000" />
+      <workItem from="1617385373181" duration="1169000" />
+      <workItem from="1617402492357" duration="5057000" />
+      <workItem from="1617496490341" duration="822000" />
+      <workItem from="1617570410277" duration="3468000" />
+      <workItem from="1617573931769" duration="48000" />
+      <workItem from="1617659931673" duration="1137000" />
+      <workItem from="1617661124941" duration="48000" />
+      <workItem from="1617731735940" duration="1046000" />
+      <workItem from="1617742882114" duration="1572000" />
+      <workItem from="1617828725857" duration="2156000" />
+      <workItem from="1617917199041" duration="1806000" />
+      <workItem from="1617921172853" duration="838000" />
+      <workItem from="1617992579361" duration="424000" />
+      <workItem from="1618005977833" duration="727000" />
+      <workItem from="1618006841680" duration="274000" />
+      <workItem from="1618087052124" duration="72000" />
+      <workItem from="1618320263813" duration="406000" />
+      <workItem from="1618321975313" duration="694000" />
+      <workItem from="1618339195980" duration="1451000" />
+      <workItem from="1618343929897" duration="138000" />
+      <workItem from="1618352377998" duration="2927000" />
+      <workItem from="1618409237436" duration="1989000" />
+      <workItem from="1618436936826" duration="1364000" />
+      <workItem from="1618444793518" duration="3380000" />
+      <workItem from="1618521707956" duration="977000" />
+      <workItem from="1618528198578" duration="4132000" />
+      <workItem from="1618533469368" duration="264000" />
+      <workItem from="1618596365058" duration="2715000" />
+      <workItem from="1618608566890" duration="2171000" />
+      <workItem from="1618611223137" duration="1221000" />
+      <workItem from="1618614080902" duration="1179000" />
+      <workItem from="1618618833614" duration="447000" />
+      <workItem from="1618619494747" duration="758000" />
+      <workItem from="1618626015666" duration="1276000" />
+      <workItem from="1618667769994" duration="1752000" />
+      <workItem from="1618674166628" duration="816000" />
+      <workItem from="1618694664848" duration="1090000" />
+      <workItem from="1618770712540" duration="137000" />
+      <workItem from="1619244315789" duration="507000" />
+      <workItem from="1619252775436" duration="14000" />
+      <workItem from="1619255021894" duration="1209000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="828" y="412" key="#ESLint" timestamp="1616964304981">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="828" y="412" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1616964304981" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617373644794">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1617373644794" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1617375207274">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1617375207274" />
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616324789691">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="777" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1616324789691" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1617305508253">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617305508253" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1617378232145">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1617378232145" />
   </component>
 </project>
